@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mtsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E53935"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+    <linearGradient id="mtsAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A80"/>
+      <stop offset="100%" stop-color="#E53935"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Modern Emblem -->
+  <g transform="translate(10, 8)">
+    <!-- Dynamic hexagon/shield frame -->
+    <path d="M 24 2 L 46 14 L 46 40 L 24 52 L 2 40 L 2 14 Z" fill="none" stroke="url(#mtsGrad)" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Stylized home/spark flame icon inside -->
+    <path d="M 24 10 L 37 20 L 37 36 L 24 44 L 11 36 L 11 20 Z" fill="url(#mtsGrad)" opacity="0.15"/>
+    <path d="M 24 13 L 34 22 L 29 22 L 29 36 L 19 36 L 19 22 L 14 22 Z" fill="url(#mtsGrad)"/>
+    <circle cx="24" cy="27" r="2.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Typography -->
+  <!-- MTS bold lettering -->
+  <text x="70" y="44" font-family="'Outfit', 'Montserrat', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="900" letter-spacing="2.5" fill="#1C1A17">
+    MTS
+  </text>
+  
+  <!-- Red accent dot/slash -->
+  <circle cx="178" cy="24" r="4.5" fill="url(#mtsGrad)"/>
+
+  <!-- Subtitle: HOME APPLIANCES -->
+  <text x="72" y="58" font-family="'Outfit', 'Montserrat', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="3.8" fill="#6A6660">
+    HOME APPLIANCES
+  </text>
+  
+  <line x1="192" y1="55" x2="245" y2="55" stroke="url(#mtsGrad)" stroke-width="2" stroke-linecap="round"/>
+</svg>
