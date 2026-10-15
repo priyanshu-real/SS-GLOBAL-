@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Pre-fill message
             if (messageTextarea && brandName) {
-                messageTextarea.value = `Hello SS Global Team, I am interested in requesting the official catalog, pricing, and availability for ${brandName} for our project.`;
+                messageTextarea.value = `Hello SS Global Team, I am interested in requesting the official catalogue, pricing, and availability for ${brandName} for our project.`;
             }
 
             // Smooth scroll to inquiry form
@@ -228,7 +228,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Prepare WhatsApp pre-filled text
             if (waDirectBtn) {
-                const formattedMsg = `Hello SS Global Team,\n\nI would like to request showroom catalogs & quote:\n• Name: ${name}\n• Phone: ${phone}\n• Email: ${email}\n• Department / Brand: ${serviceLabel}\n• Requirements: ${message}`;
+                const formattedMsg = `*Showroom Inquiry - SS Global*\n\n` +
+                    `Hello SS Global Team,\n` +
+                    `I would like to request product catalogues, pricing, and availability details.\n\n` +
+                    `*Customer Details:*\n` +
+                    `• *Name:* ${name}\n` +
+                    `• *Phone:* ${phone}\n` +
+                    `• *Email:* ${email || 'Not provided'}\n` +
+                    `• *Brand / Department:* ${serviceLabel}\n\n` +
+                    `*Requirements:*\n${message}`;
                 waDirectBtn.href = `https://wa.me/919355609966?text=${encodeURIComponent(formattedMsg)}`;
             }
 

@@ -1,0 +1,3804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SS Global Showroom in Dwarka Mor, New Delhi - Official Authorised Dealer for Somany, Kajaria, Hindware, Jaquar, Supreme Pipes, Astral Pipes, Prince Pipes, Carysil Sinks, Somany Ezy Fix, Magnify, Kaff, Livpure, MTS, and exclusive Equil bath &amp; kitchen collections.">
+    <title>SS GLOBAL | Authorised Dealer - Tiles, Bathware, Supreme &amp; Astral Pipes, Carysil Sinks</title>
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+/* --- ALL-IN-ONE SS GLOBAL STYLESHEET --- */
+/* 
+   SS GLOBAL LUXURY SHOWROOM STYLESHEET
+   Aesthetic: Elegant Editorial & Minimalist Classic
+   Color Palette:
+   - Travertine Cream Background: #FAF7F2
+   - Deep Charcoal Text: #1C1A17
+   - Warm Muted Grey: #6A6660
+   - Brushed Champagne Gold: #C5A880
+   - Fine dividers: rgba(28, 26, 23, 0.08)
+*/
+
+:root {
+    --bg-color: #FAF7F2;
+    --bg-card: #FFFFFF;
+    --text-primary: #1C1A17;
+    --text-secondary: #6A6660;
+    --accent-gold: #C5A880;
+    --accent-gold-dark: #A98F65;
+    --border-light: rgba(28, 26, 23, 0.08);
+    --border-medium: rgba(28, 26, 23, 0.2);
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Outfit', system-ui, sans-serif;
+    --transition-smooth: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-primary);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Typography Layouts */
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+
+/* Utility Containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container-narrow {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container-flex {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    padding: 8rem 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Top Announcement bar */
+.top-announcement {
+    background-color: var(--text-primary);
+    color: var(--bg-color);
+    padding: 0.6rem 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
+
+.top-announcement span {
+    opacity: 0.85;
+}
+
+.phone-link {
+    color: var(--accent-gold) !important;
+    font-weight: 500;
+}
+
+.phone-link:hover {
+    color: #FFFFFF !important;
+}
+
+/* Header & Nav */
+.header {
+    background-color: rgba(250, 247, 242, 0.95);
+    border-bottom: 1px solid var(--border-light);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+}
+
+.nav {
+    padding: 1rem 2.5rem;
+}
+
+/* Dual Brand Flagship Header Bar */
+.header-brands-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3.5rem;
+    flex: 1;
+}
+
+.header-brand-unit {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+.header-brand-unit:hover {
+    transform: translateY(-2px);
+}
+
+.firm-logo-img {
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 10px rgba(28, 26, 23, 0.12));
+    transition: var(--transition-smooth);
+}
+
+.brand-equil-img {
+    height: 82px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 3px 8px rgba(28, 26, 23, 0.08));
+    transition: var(--transition-smooth);
+}
+
+.header-brand-unit:hover .firm-logo-img,
+.header-brand-unit:hover .brand-equil-img {
+    transform: scale(1.04);
+}
+
+.brand-text-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-main-name {
+    font-family: var(--font-heading);
+    font-size: 1.85rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--text-primary);
+    line-height: 1.05;
+}
+
+.brand-sub-badge {
+    font-size: 0.74rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent-gold-dark);
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+
+/* Luxury Synergy Connector */
+.header-synergy-divider {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.header-synergy-divider .synergy-line {
+    width: 45px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+}
+
+.header-synergy-divider .synergy-tag {
+    font-family: var(--font-body);
+    font-size: 0.68rem;
+    letter-spacing: 0.22em;
+    color: var(--accent-gold-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(197, 168, 128, 0.12);
+    padding: 0.3rem 0.85rem;
+    border-radius: 20px;
+    border: 1px solid rgba(197, 168, 128, 0.35);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+/* Luxury Round Icon-Only Menu Button */
+.btn-all-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, #1C1A17 0%, #2D2924 100%);
+    color: #FAF7F2;
+    border: 1.5px solid rgba(197, 168, 128, 0.55);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(28, 26, 23, 0.16);
+    transition: var(--transition-smooth);
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.btn-all-menu .menu-icon {
+    font-size: 1.6rem;
+    color: var(--accent-gold);
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-smooth);
+}
+
+.btn-all-menu:hover {
+    background: #C5A880;
+    color: #1C1A17;
+    border-color: #C5A880;
+    box-shadow: 0 8px 25px rgba(197, 168, 128, 0.45);
+    transform: scale(1.08);
+}
+
+.btn-all-menu:hover .menu-icon {
+    color: #1C1A17;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--accent-gold);
+    transition: var(--transition-smooth);
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-item:hover {
+    color: var(--accent-gold);
+}
+
+.btn-nav {
+    border: 1px solid var(--text-primary);
+    padding: 0.6rem 1.5rem !important;
+    border-radius: 0;
+}
+
+.btn-nav::after {
+    display: none !important;
+}
+
+.btn-nav:hover {
+    background-color: var(--text-primary);
+    color: var(--bg-color) !important;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 85vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 900px;
+    z-index: 10;
+}
+
+.hero-brand-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 0.5rem 1.4rem;
+    background-color: rgba(28, 26, 23, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(197, 168, 128, 0.45);
+    border-radius: 40px;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.hero-brand-pill .pill-dot {
+    color: var(--accent-gold);
+    font-size: 0.9rem;
+}
+
+.hero-brand-pill .pill-highlight {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.hero-title {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.hero-subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    font-weight: 300;
+    opacity: 0.95;
+    line-height: 1.6;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 1.1rem 2.5rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    border-radius: 0;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.btn-primary {
+    background-color: var(--accent-gold);
+    color: #FFFFFF;
+    border: 1px solid var(--accent-gold);
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-gold-dark);
+    border-color: var(--accent-gold-dark);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-left: 1.5rem;
+}
+
+.btn-secondary:hover {
+    background-color: #FFFFFF;
+    color: var(--text-primary);
+    transform: translateY(-2px);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-text {
+    font-weight: 600;
+    color: var(--accent-gold);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+}
+
+.btn-text:hover {
+    color: var(--text-primary);
+    padding-left: 0.5rem;
+}
+
+/* General Section Headers */
+.section-header {
+    margin-bottom: 4rem;
+}
+
+.section-header-centered {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.section-tag {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--accent-gold);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.section-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--text-primary);
+}
+
+.section-desc {
+    max-width: 600px;
+    margin: 1.5rem auto 0;
+    color: var(--text-secondary);
+}
+
+/* SS Global & Equil Section */
+.brand-synergy-section {
+    background-color: #FFFFFF;
+}
+
+.brand-synergy-grid {
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr;
+    gap: 2rem;
+    align-items: stretch;
+    margin-top: 3.5rem;
+}
+
+.synergy-card {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-light);
+    padding: 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: var(--transition-smooth);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.synergy-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.06);
+    border-color: rgba(197, 168, 128, 0.5);
+}
+
+.synergy-logo-box {
+    background: #FFFFFF;
+    border: 1px solid var(--border-light);
+    padding: 1.2rem 1.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.synergy-logo-firm {
+    height: 62px;
+    width: auto;
+    object-fit: contain;
+}
+
+.synergy-logo-equil {
+    height: 56px;
+    width: auto;
+    object-fit: contain;
+}
+
+.synergy-tag {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--accent-gold-dark);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.synergy-title {
+    font-size: 1.8rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.synergy-desc {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.synergy-features {
+    list-style: none;
+    border-top: 1px solid var(--border-light);
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.synergy-features li {
+    font-size: 0.88rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.synergy-check {
+    color: var(--accent-gold-dark);
+    font-weight: 700;
+}
+
+.synergy-connector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.synergy-connector-badge {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid var(--accent-gold);
+    color: var(--accent-gold-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.synergy-connector-line {
+    width: 1px;
+    flex-grow: 1;
+    background: repeating-linear-gradient(to bottom, var(--accent-gold), var(--accent-gold) 5px, transparent 5px, transparent 10px);
+}
+
+/* Category Grid Card Section */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.category-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-light);
+    display: flex;
+    flex-direction: column;
+    transition: var(--transition-smooth);
+}
+
+.category-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+    border-color: var(--accent-gold);
+}
+
+.category-img-container {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.category-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-smooth);
+}
+
+.category-card:hover .category-img {
+    transform: scale(1.04);
+}
+
+.category-info {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.category-tagline {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-gold);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.category-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.category-desc {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Showcase Filterable Gallery */
+.filter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    background: none;
+    border: none;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: var(--transition-smooth);
+    border-bottom: 2px solid transparent;
+}
+
+.filter-btn.active {
+    color: var(--text-primary);
+    border-bottom-color: var(--accent-gold);
+}
+
+.filter-btn:hover {
+    color: var(--text-primary);
+}
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    height: 380px;
+    border: 1px solid var(--border-light);
+    transition: var(--transition-smooth);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-smooth);
+}
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(28,26,23,0.9) 0%, rgba(28,26,23,0) 100%);
+    padding: 2.5rem 2rem;
+    color: #FFFFFF;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: var(--transition-smooth);
+}
+
+.gallery-overlay h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.gallery-overlay p {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--accent-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-item:hover .gallery-overlay {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.gallery-item.hide {
+    display: none;
+}
+
+/* Highlights Section & Accordion */
+.split-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.highlight-intro {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+}
+
+.accordion-container {
+    border-top: 1px solid var(--border-light);
+}
+
+.accordion-row {
+    border-bottom: 1px solid var(--border-light);
+}
+
+.accordion-toggle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 0;
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.accordion-icon {
+    font-family: var(--font-body);
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--accent-gold);
+    transition: var(--transition-smooth);
+}
+
+.accordion-row.active .accordion-icon {
+    transform: rotate(45deg);
+    color: var(--text-primary);
+}
+
+.accordion-toggle:hover {
+    color: var(--accent-gold);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.accordion-desc {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    padding-bottom: 1.8rem;
+    line-height: 1.7;
+}
+
+/* Decor Blocks */
+.highlights-decor {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.decor-box {
+    background-color: var(--text-primary);
+    color: var(--bg-color);
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--text-primary);
+}
+
+.decor-box.outline {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-medium);
+}
+
+.decor-stat {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    line-height: 1;
+    color: var(--accent-gold);
+    margin-bottom: 0.8rem;
+}
+
+.decor-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+/* Testimonials Editorial Quotes */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.testimonial-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-light);
+    padding: 3.5rem;
+    position: relative;
+}
+
+.quote-icon {
+    font-family: var(--font-heading);
+    font-size: 6rem;
+    color: var(--accent-gold);
+    opacity: 0.25;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+    line-height: 1;
+}
+
+.quote-text {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--text-primary);
+    position: relative;
+    z-index: 10;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.quote-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+}
+
+.author-role {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.2rem;
+}
+
+/* Inquiry Form */
+.inquiry-form {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-light);
+    padding: 4rem;
+    margin-top: 3rem;
+    transition: var(--transition-smooth);
+}
+
+.inquiry-form.hidden {
+    display: none;
+}
+
+.form-row-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: var(--text-primary);
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-light);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0;
+    transition: var(--transition-smooth);
+}
+
+.form-group input:focus, 
+.form-group select:focus, 
+.form-group textarea:focus {
+    border-color: var(--accent-gold);
+    background-color: #FFFFFF;
+}
+
+.form-group select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23C5A880' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+}
+
+/* AJAX Success Checkmark Styles */
+.form-success {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bg-card);
+    border: 1px solid var(--accent-gold);
+    padding: 5rem 4rem;
+    margin-top: 3rem;
+    box-shadow: 0 10px 30px rgba(197, 168, 128, 0.05);
+}
+
+.form-success.visible {
+    display: flex;
+}
+
+.form-success .btn-secondary {
+    color: var(--text-primary);
+    border: 1px solid var(--border-medium);
+    margin-left: 0;
+    background-color: transparent;
+    transition: var(--transition-smooth);
+}
+
+.form-success .btn-secondary:hover {
+    border-color: var(--text-primary);
+    background-color: rgba(28, 26, 23, 0.05);
+}
+
+.checkmark-wrapper {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2rem;
+}
+
+.checkmark {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: var(--accent-gold);
+    stroke-miterlimit: 10;
+    fill: none;
+}
+
+.checkmark-circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: var(--accent-gold);
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark-check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% { stroke-dashoffset: 0; }
+}
+
+.success-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.success-message {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    max-width: 500px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: var(--text-primary);
+    color: #FFFFFF;
+    padding: 6rem 0 3rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.footer-logo {
+    color: #FFFFFF !important;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer Dual Brand Card */
+.footer-dual-logos {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.25rem;
+    background-color: #FFFFFF;
+    padding: 0.9rem 1.4rem;
+    border-radius: 4px;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer-logo-firm {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-logo-divider {
+    width: 1px;
+    height: 32px;
+    background-color: rgba(28, 26, 23, 0.15);
+}
+
+.footer-logo-equil {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+}
+
+.brand-desc {
+    opacity: 0.7;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+.footer-contacts p {
+    font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+    opacity: 0.85;
+}
+
+.footer-contacts strong {
+    color: var(--accent-gold);
+}
+
+.footer-contacts a {
+    color: #FFFFFF;
+}
+
+.footer-contacts a:hover {
+    color: var(--accent-gold);
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    color: var(--accent-gold);
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    color: var(--accent-gold);
+    padding-left: 0.3rem;
+}
+
+.footer-hours p {
+    opacity: 0.7;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.map-link-container {
+    margin-top: 1.5rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(250, 247, 242, 0.1);
+    padding-top: 2rem;
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+    .split-layout {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    .brand-synergy-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+    .synergy-connector {
+        display: none;
+    }
+    .header-brands-bar {
+        gap: 1.8rem;
+    }
+    .header-synergy-divider {
+        display: none;
+    }
+    .brand-main-name {
+        font-size: 1.45rem;
+    }
+    .firm-logo-img {
+        height: 72px;
+    }
+    .brand-equil-img {
+        height: 66px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 0.75rem 1.25rem;
+    }
+    .header-brands-bar {
+        gap: 0.85rem;
+    }
+    .header-brand-unit {
+        gap: 0.5rem;
+    }
+    .firm-logo-img {
+        height: 52px;
+    }
+    .brand-equil-img {
+        height: 46px;
+    }
+    .brand-main-name {
+        font-size: 1.05rem;
+    }
+    .brand-sub-badge {
+        display: none;
+    }
+    .btn-all-menu {
+        width: 44px;
+        height: 44px;
+    }
+    .btn-all-menu .menu-icon {
+        font-size: 1.25rem;
+    }
+    .footer-dual-logos {
+        padding: 0.6rem 1rem;
+        gap: 0.8rem;
+    }
+    .footer-logo-firm {
+        height: 36px;
+    }
+    .footer-logo-equil {
+        height: 30px;
+    }
+    .form-row-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .btn-secondary {
+        margin-left: 0;
+        margin-top: 1rem;
+        display: block;
+    }
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+    .inquiry-form {
+        padding: 2.5rem;
+    }
+}
+
+/* ========================================================
+   AUTHORISED DEALERSHIPS & BRAND PARTNERS STYLES
+   ======================================================== */
+
+/* Infinite Logo Marquee Ribbon */
+.brand-marquee-section {
+    background: #FFFFFF;
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+    padding: 1.75rem 0 1.5rem 0;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.brand-marquee-header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.brand-marquee-title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--accent-gold-dark);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.brand-marquee-title::before,
+.brand-marquee-title::after {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    background-color: var(--accent-gold);
+    opacity: 0.6;
+}
+
+.marquee-track-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}
+
+.marquee-track {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    width: max-content;
+    animation: marqueeScroll 34s linear infinite;
+    padding: 0.5rem 0;
+}
+
+.marquee-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.marquee-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-color);
+    padding: 0.75rem 1.6rem;
+    border-radius: 50px;
+    border: 1px solid rgba(28, 26, 23, 0.08);
+    transition: var(--transition-smooth);
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.marquee-item:hover {
+    background: #FFFFFF;
+    border-color: var(--accent-gold);
+    box-shadow: 0 6px 20px rgba(197, 168, 128, 0.25);
+    transform: translateY(-2px);
+}
+
+.marquee-item img {
+    height: 32px;
+    width: auto;
+    max-width: 110px;
+    object-fit: contain;
+    filter: grayscale(15%);
+    transition: var(--transition-smooth);
+}
+
+.marquee-item:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.marquee-tag {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.marquee-verified-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #2E7D32;
+    box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.2);
+}
+
+/* Dedicated Authorised Brands Section */
+.authorised-section {
+    background-color: var(--bg-color);
+    position: relative;
+    padding: 7rem 0 6rem 0;
+}
+
+/* Brand Filter Pills */
+.brand-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 2.5rem 0 3.5rem 0;
+}
+
+.brand-filter-btn {
+    background: #FFFFFF;
+    border: 1px solid var(--border-medium);
+    padding: 0.7rem 1.6rem;
+    border-radius: 30px;
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-filter-btn .count-badge {
+    background: rgba(28, 26, 23, 0.06);
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: var(--transition-smooth);
+}
+
+.brand-filter-btn:hover {
+    border-color: var(--accent-gold);
+    color: var(--text-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.brand-filter-btn.active {
+    background: var(--text-primary);
+    color: #FFFFFF;
+    border-color: var(--text-primary);
+    box-shadow: 0 6px 20px rgba(28, 26, 23, 0.2);
+}
+
+.brand-filter-btn.active .count-badge {
+    background: var(--accent-gold);
+    color: #FFFFFF;
+}
+
+/* Brands Grid */
+.authorised-brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.25rem;
+    margin-bottom: 4.5rem;
+}
+
+/* Brand Card */
+.brand-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    padding: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.brand-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+    opacity: 0;
+    transition: var(--transition-smooth);
+}
+
+.brand-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(197, 168, 128, 0.45);
+    box-shadow: 0 20px 45px rgba(28, 26, 23, 0.09);
+}
+
+.brand-card:hover::before {
+    opacity: 1;
+}
+
+/* Brand Card Header */
+.brand-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.85rem 1.4rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px dashed rgba(28, 26, 23, 0.1);
+}
+
+.dealer-verified-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    color: #2E7D32;
+    background-color: #E8F5E9;
+    padding: 0.35rem 0.8rem;
+    border-radius: 20px;
+    border: 1px solid rgba(46, 125, 50, 0.2);
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.dealer-verified-badge svg {
+    width: 13px;
+    height: 13px;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+.brand-category-pill {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-gold-dark);
+    font-weight: 600;
+    margin-left: auto;
+    text-align: right;
+    white-space: nowrap;
+}
+
+/* Brand Logo Box */
+.brand-card-logo-wrap {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF9F6;
+    border: 1px solid rgba(28, 26, 23, 0.05);
+    border-radius: 4px;
+    padding: 1.2rem;
+    margin-bottom: 1.6rem;
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition-smooth);
+}
+
+.brand-card:hover .brand-card-logo-wrap {
+    background-color: #FFFFFF;
+    border-color: rgba(197, 168, 128, 0.3);
+}
+
+.brand-card-logo-wrap img {
+    max-height: 52px;
+    max-width: 85%;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.brand-card:hover .brand-card-logo-wrap img {
+    transform: scale(1.06);
+}
+
+/* Shimmer Light Reflection Sweep on Hover */
+.brand-card-logo-wrap::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.6) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(25deg);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.brand-card:hover .brand-card-logo-wrap::after {
+    opacity: 1;
+    animation: shimmerSweep 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes shimmerSweep {
+    0% {
+        left: -60%;
+    }
+    100% {
+        left: 140%;
+    }
+}
+
+/* Brand Card Content */
+.brand-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-card-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+    color: var(--text-primary);
+}
+
+.brand-card-tagline {
+    font-size: 0.82rem;
+    color: var(--accent-gold-dark);
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.9rem;
+}
+
+.brand-card-desc {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
+}
+
+.brand-offerings-list {
+    list-style: none;
+    margin-bottom: 1.8rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-light);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.brand-offerings-list li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.brand-offerings-list li span.bullet {
+    color: var(--accent-gold);
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+/* Card Action Button */
+.brand-card-footer {
+    margin-top: auto;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.btn-brand-inquire {
+    flex: 1;
+    background: transparent;
+    border: 1px solid var(--text-primary);
+    color: var(--text-primary);
+    padding: 0.7rem 1.2rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: var(--transition-smooth);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+}
+
+.btn-brand-inquire:hover {
+    background: var(--text-primary);
+    color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(28, 26, 23, 0.15);
+}
+
+.brand-warranty-badge {
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    white-space: nowrap;
+}
+
+/* Authorized Dealership Trust Bar */
+.dealer-trust-bar {
+    background: #FFFFFF;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    padding: 2.5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.03);
+}
+
+.dealer-trust-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.1rem;
+}
+
+.dealer-trust-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(197, 168, 128, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: var(--accent-gold-dark);
+    flex-shrink: 0;
+}
+
+.dealer-trust-text h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.dealer-trust-text p {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+/* Global Animations & Transitions */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.stagger-1 { transition-delay: 0.08s; }
+.stagger-2 { transition-delay: 0.16s; }
+.stagger-3 { transition-delay: 0.24s; }
+.stagger-4 { transition-delay: 0.32s; }
+
+/* Pop-in animation for filtered cards */
+@keyframes cardPopIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.96) translateY(12px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.brand-card.anim-pop-in {
+    animation: cardPopIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.brand-card.hide {
+    display: none !important;
+}
+
+/* Pulse Glow Keyframe */
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(46, 125, 50, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgba(46, 125, 50, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(46, 125, 50, 0);
+    }
+}
+
+.pulse-beacon {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #2E7D32;
+    animation: pulseGlow 2s infinite;
+}
+
+/* Floating Quick WhatsApp / Contact Button */
+.floating-dealer-contact {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: #1C1A17;
+    color: #FFFFFF;
+    padding: 0.85rem 1.4rem;
+    border-radius: 40px;
+    border: 1px solid var(--accent-gold);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+.floating-dealer-contact:hover {
+    background: var(--accent-gold);
+    color: #FFFFFF;
+    transform: translateY(-4px);
+    box-shadow: 0 14px 35px rgba(197, 168, 128, 0.4);
+}
+
+.floating-dealer-contact .wa-icon {
+    font-size: 1.2rem;
+}
+
+.floating-dealer-contact .floating-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* Responsive updates for Authorised Section */
+@media (max-width: 992px) {
+    .dealer-trust-bar {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .authorised-brands-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .dealer-trust-bar {
+        grid-template-columns: 1fr;
+    }
+    .authorised-brands-grid {
+        grid-template-columns: 1fr;
+    }
+    .brand-marquee-track {
+        gap: 1.5rem;
+    }
+    .floating-dealer-contact .floating-text {
+        display: none;
+    }
+    .floating-dealer-contact {
+        padding: 0.8rem;
+        border-radius: 50%;
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+}
+
+/* ========================================================
+   CRISP BRAND CARDS & TAG CHIPS
+   ======================================================== */
+.brand-card-desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: 0.9rem;
+    min-height: 48px;
+}
+
+.brand-quick-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 1.25rem;
+}
+
+.brand-tag-chip {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    background: rgba(197, 168, 128, 0.12);
+    color: #6E532D;
+    padding: 0.22rem 0.65rem;
+    border-radius: 20px;
+    border: 1px solid rgba(197, 168, 128, 0.28);
+    transition: var(--transition-smooth);
+}
+
+.brand-card:hover .brand-tag-chip {
+    background: rgba(197, 168, 128, 0.2);
+    border-color: rgba(197, 168, 128, 0.5);
+    color: #1C1A17;
+}
+
+/* ========================================================
+   FULL SHOWROOM ALL CONTENT MENU DRAWER
+   ======================================================== */
+.content-drawer-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(18, 16, 14, 0.78);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+.content-drawer-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.content-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 680px;
+    background: #FAF7F2;
+    z-index: 2001;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: -15px 0 50px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+}
+
+.content-drawer-overlay.active .content-drawer {
+    transform: translateX(0);
+}
+
+.drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.75rem 2rem;
+    border-bottom: 1px solid var(--border-light);
+    background: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.drawer-brand-title {
+    font-family: var(--font-heading);
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.1;
+}
+
+.drawer-brand-subtitle {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-gold-dark);
+    font-weight: 600;
+}
+
+.drawer-close-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #FAF7F2;
+    border: 1px solid var(--border-light);
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-smooth);
+}
+
+.drawer-close-btn:hover {
+    background: #1C1A17;
+    color: #FAF7F2;
+    transform: rotate(90deg);
+}
+
+.drawer-body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.drawer-block {
+    background: #FFFFFF;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    padding: 1.5rem 1.75rem;
+}
+
+.drawer-block-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drawer-block-title span.badge-num {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    background: rgba(197, 168, 128, 0.15);
+    color: var(--accent-gold-dark);
+    padding: 0.15rem 0.55rem;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.drawer-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+}
+
+.drawer-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.65rem 0.9rem;
+    border-radius: 4px;
+    background: #FAF9F6;
+    border: 1px solid rgba(28, 26, 23, 0.04);
+    font-size: 0.86rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    transition: var(--transition-smooth);
+}
+
+.drawer-nav-link:hover {
+    background: #C5A880;
+    color: #1C1A17;
+    transform: translateX(4px);
+    border-color: #C5A880;
+}
+
+.drawer-nav-link span.icon {
+    font-size: 1rem;
+}
+
+/* Brands directory inside drawer */
+.drawer-brands-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+}
+
+.drawer-brand-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 0.85rem;
+    background: #FAF9F6;
+    border: 1px solid rgba(28, 26, 23, 0.05);
+    border-radius: 4px;
+    transition: var(--transition-smooth);
+}
+
+.drawer-brand-item:hover {
+    background: #1C1A17;
+    border-color: #1C1A17;
+    transform: translateY(-2px);
+}
+
+.drawer-brand-item .brand-item-name {
+    font-size: 0.84rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
+}
+
+.drawer-brand-item .brand-item-cat {
+    font-size: 0.68rem;
+    color: var(--accent-gold-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease;
+}
+
+.drawer-brand-item:hover .brand-item-name {
+    color: #FFFFFF;
+}
+
+.drawer-brand-item:hover .brand-item-cat {
+    color: var(--accent-gold);
+}
+
+/* Drawer Showroom Contact Card */
+.drawer-contact-card {
+    background: linear-gradient(135deg, #1C1A17 0%, #2B2621 100%);
+    color: #FAF7F2;
+    padding: 1.5rem 1.75rem;
+    border-radius: 6px;
+    border: 1px solid rgba(197, 168, 128, 0.3);
+}
+
+.drawer-contact-card h4 {
+    color: var(--accent-gold);
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+}
+
+.drawer-contact-card p {
+    font-size: 0.85rem;
+    color: rgba(250, 247, 242, 0.85);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.drawer-contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.drawer-contact-actions a {
+    font-size: 0.78rem;
+    padding: 0.5rem 0.9rem;
+}
+
+/* ========================================================
+   SHOWROOM ADDRESS & DIRECT CONTACT (BOTTOM SECTION)
+   ======================================================== */
+.showroom-contact-section {
+    background: #FFFFFF;
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+    padding: 6.5rem 0;
+}
+
+.showroom-contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.75rem;
+    margin-top: 3.5rem;
+}
+
+.contact-hub-card {
+    background: #FAF9F6;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    padding: 2.25rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: var(--transition-smooth);
+}
+
+.contact-hub-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--accent-gold);
+    opacity: 0;
+    transition: var(--transition-smooth);
+}
+
+.contact-hub-card:hover {
+    transform: translateY(-6px);
+    background: #FFFFFF;
+    border-color: rgba(197, 168, 128, 0.4);
+    box-shadow: 0 15px 35px rgba(28, 26, 23, 0.08);
+}
+
+.contact-hub-card:hover::before {
+    opacity: 1;
+}
+
+.hub-card-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: rgba(197, 168, 128, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: var(--accent-gold-dark);
+}
+
+.hub-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    margin-bottom: 0.6rem;
+    color: var(--text-primary);
+}
+
+.hub-card-text {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.hub-card-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.84rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-primary);
+    padding: 0.6rem 1.1rem;
+    background: #FFFFFF;
+    border: 1px solid var(--border-medium);
+    border-radius: 4px;
+    transition: var(--transition-smooth);
+    width: fit-content;
+}
+
+.contact-hub-card:hover .hub-card-action {
+    background: #1C1A17;
+    color: #FFFFFF;
+    border-color: #1C1A17;
+}
+
+@media (max-width: 1024px) {
+    .showroom-contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .showroom-contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .drawer-nav-grid,
+    .drawer-brands-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+</style>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav container-flex">
+            <div class="header-brands-bar">
+                <!-- SS GLOBAL Primary Brand -->
+                <a href="#" class="header-brand-unit brand-ssglobal" title="SS GLOBAL Flagship Showroom">
+                    <img src="static/images/logo_ssglobal.png" alt="SS GLOBAL Logo" class="firm-logo-img">
+                    <div class="brand-text-meta">
+                        <span class="brand-main-name">SS GLOBAL</span>
+                        <span class="brand-sub-badge">Flagship Showroom</span>
+                    </div>
+                </a>
+
+                <!-- Luxury Synergy Connector -->
+                <div class="header-synergy-divider" aria-hidden="true">
+                    <span class="synergy-line"></span>
+                    <span class="synergy-tag">FEATURING</span>
+                    <span class="synergy-line"></span>
+                </div>
+
+                <!-- EQUIL Signature Brand -->
+                <a href="#about-brand" class="header-brand-unit brand-equil" title="EQUIL Signature Collection">
+                    <img src="static/images/logo_equil.png" alt="EQUIL Logo" class="brand-equil-img">
+                    <div class="brand-text-meta">
+                        <span class="brand-main-name">EQUIL</span>
+                        <span class="brand-sub-badge">Signature Bath &amp; Kitchen</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <button type="button" id="menu-toggle-btn" class="btn-all-menu" aria-label="Open Navigation Menu" title="Open Full Menu">
+                    <span class="menu-icon">&#9776;</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Full Showroom All Content Directory Menu Drawer (Off-Canvas) -->
+    <div id="content-menu-drawer" class="content-drawer-overlay" aria-hidden="true">
+        <div class="content-drawer">
+            <div class="drawer-header">
+                <div>
+                    <h3 class="drawer-brand-title">SS GLOBAL SHOWROOM</h3>
+                    <p class="drawer-brand-subtitle">Complete Site &amp; Content Directory</p>
+                </div>
+                <button type="button" id="close-menu-btn" class="drawer-close-btn" aria-label="Close Menu">&times;</button>
+            </div>
+            <div class="drawer-body">
+                <!-- Section 1: Main Showroom Pages -->
+                <div class="drawer-block">
+                    <div class="drawer-block-title">
+                        <span>Showroom Overview</span>
+                        <span class="badge-num">6 Sections</span>
+                    </div>
+                    <div class="drawer-nav-grid">
+                        <a href="#hero" class="drawer-nav-link"><span class="icon">&#127963;</span> Welcome &amp; Hero</a>
+                        <a href="#about-brand" class="drawer-nav-link"><span class="icon">&#10024;</span> SS Global &amp; EQUIL</a>
+                        <a href="#authorised-brands" class="drawer-nav-link"><span class="icon">&#127942;</span> 13 Authorised Brands</a>
+                        <a href="#collections" class="drawer-nav-link"><span class="icon">&#128444;</span> Luxury Collections</a>
+                        <a href="#categories" class="drawer-nav-link"><span class="icon">&#128193;</span> Product Departments</a>
+                        <a href="#inquiry" class="drawer-nav-link"><span class="icon">&#128221;</span> Request Official Catalog</a>
+                    </div>
+                </div>
+
+                <!-- Section 2: All 13 Authorised Brands -->
+                <div class="drawer-block">
+                    <div class="drawer-block-title">
+                        <span>Authorised Brand Showcase</span>
+                        <span class="badge-num">13 Brands</span>
+                    </div>
+                    <div class="drawer-brands-grid">
+                        <a href="#brand-card-somany-tiles" class="drawer-brand-item">
+                            <span class="brand-item-name">Somany Ceramics</span>
+                            <span class="brand-item-cat">Tiles &amp; Slabs</span>
+                        </a>
+                        <a href="#brand-card-kajaria-tiles" class="drawer-brand-item">
+                            <span class="brand-item-name">Kajaria Ceramics</span>
+                            <span class="brand-item-cat">Tiles &amp; Slabs</span>
+                        </a>
+                        <a href="#brand-card-hindware-bath" class="drawer-brand-item">
+                            <span class="brand-item-name">Hindware</span>
+                            <span class="brand-item-cat">Sanitary &amp; Bath</span>
+                        </a>
+                        <a href="#brand-card-jaquar-bath" class="drawer-brand-item">
+                            <span class="brand-item-name">Jaquar</span>
+                            <span class="brand-item-cat">Faucets &amp; Showers</span>
+                        </a>
+                        <a href="#brand-card-supreme-pipes" class="drawer-brand-item">
+                            <span class="brand-item-name">Supreme Pipes</span>
+                            <span class="brand-item-cat">CPVC, UPVC &amp; SWR</span>
+                        </a>
+                        <a href="#brand-card-astral-pipes" class="drawer-brand-item">
+                            <span class="brand-item-name">Astral Pipes</span>
+                            <span class="brand-item-cat">Plumbing Systems</span>
+                        </a>
+                        <a href="#brand-card-prince-pipes" class="drawer-brand-item">
+                            <span class="brand-item-name">Prince Pipes</span>
+                            <span class="brand-item-cat">Piping &amp; Drainage</span>
+                        </a>
+                        <a href="#brand-card-carysil-sinks" class="drawer-brand-item">
+                            <span class="brand-item-name">Carysil Sinks</span>
+                            <span class="brand-item-cat">Quartz Kitchen Sinks</span>
+                        </a>
+                        <a href="#brand-card-somany-adhesive" class="drawer-brand-item">
+                            <span class="brand-item-name">Somany Ezy Fix</span>
+                            <span class="brand-item-cat">Tile Adhesives</span>
+                        </a>
+                        <a href="#brand-card-magnify-adhesive" class="drawer-brand-item">
+                            <span class="brand-item-name">Magnify Grout</span>
+                            <span class="brand-item-cat">Adhesives &amp; Grouts</span>
+                        </a>
+                        <a href="#brand-card-kaff-appliances" class="drawer-brand-item">
+                            <span class="brand-item-name">Kaff Appliances</span>
+                            <span class="brand-item-cat">Chimneys &amp; Hobs</span>
+                        </a>
+                        <a href="#brand-card-livpure-appliances" class="drawer-brand-item">
+                            <span class="brand-item-name">Livpure</span>
+                            <span class="brand-item-cat">RO Water Purifiers</span>
+                        </a>
+                        <a href="#brand-card-mts-appliances" class="drawer-brand-item">
+                            <span class="brand-item-name">MTS Appliances</span>
+                            <span class="brand-item-cat">Home &amp; Kitchen</span>
+                        </a>
+                        <a href="#about-brand" class="drawer-brand-item">
+                            <span class="brand-item-name">EQUIL Signature</span>
+                            <span class="brand-item-cat">Bath &amp; Kitchen</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Section 3: Showroom Address & Immediate Contact -->
+                <div class="drawer-contact-card">
+                    <h4>📍 Visit SS Global Showroom</h4>
+                    <p>Plot No-18/27, Vipin Garden, Near Pillar No-803, Dwarka Mor, Delhi-110059<br>
+                    <strong>Hours:</strong> Mon - Sat: 10:00 AM - 8:00 PM (Sunday Closed)</p>
+                    <div class="drawer-contact-actions">
+                        <a href="tel:+919355609966" class="btn btn-primary">📞 Call +91 9355609966</a>
+                        <a href="https://wa.me/919355609966?text=Hello%20SS%20Global%20Team,%20I%20would%20like%20to%20inquire%20about%20your%20showroom%20products%20and%20catalogues." target="_blank" rel="noopener" class="btn btn-secondary">💬 WhatsApp</a>
+                        <a href="https://maps.google.com/?q=Plot+No-18/27,+Vipin+Garden,+Near+Pillar+No-803,+Dwarka+Mor,+Delhi-110059" target="_blank" rel="noopener" class="btn btn-secondary">🗺️ Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Luxury Hero Section -->
+    <section class="hero" id="hero" style="background-image: linear-gradient(rgba(30, 28, 26, 0.45), rgba(30, 28, 26, 0.75)), url('static/images/hero_showroom.png');">
+        <div class="hero-content">
+            <div class="hero-brand-pill">
+                <span>SS GLOBAL</span>
+                <span class="pill-dot">•</span>
+                <span>FEATURING <span class="pill-highlight">EQUIL</span> & AUTHORISED BRANDS</span>
+            </div>
+            <h1 class="hero-title">Crafting Spaces of Timeless Luxury</h1>
+            <p class="hero-subtitle">SS Global brings you a curated collection of designer tiles, luxury bathroom fittings, and the exclusive Equil collection of modern kitchen and exquisite bath accessories.</p>
+            <div class="hero-actions">
+                <a href="#authorised-brands" class="btn btn-primary">Explore Authorised Brands</a>
+                <a href="tel:+919355609966" class="btn btn-secondary">Direct Showroom Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Brand Logo Ticker (Animated Marquee Ribbon) -->
+    <section class="brand-marquee-section" aria-label="Authorised Brands Marquee">
+        <div class="brand-marquee-header">
+            <span class="brand-marquee-title">Official Authorised Dealerships & Preferred Channel Partners</span>
+        </div>
+        <div class="marquee-track-wrapper">
+            <div class="marquee-track">
+                <!-- Loop 1 -->
+                <a href="#brand-card-somany-tiles" class="marquee-item" title="SOMANY CERAMICS - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/somany.svg" alt="SOMANY CERAMICS Official Logo">
+                    <span class="marquee-tag">Designer Tiles</span>
+                </a>
+                <a href="#brand-card-kajaria-tiles" class="marquee-item" title="KAJARIA CERAMICS - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/kajaria.svg" alt="KAJARIA CERAMICS Official Logo">
+                    <span class="marquee-tag">Designer Tiles</span>
+                </a>
+                <a href="#brand-card-hindware-bath" class="marquee-item" title="HINDWARE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/hindware.svg" alt="HINDWARE Official Logo">
+                    <span class="marquee-tag">Bathroom Fittings</span>
+                </a>
+                <a href="#brand-card-jaquar-bath" class="marquee-item" title="JAQUAR - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/jaquar.svg" alt="JAQUAR Official Logo">
+                    <span class="marquee-tag">Bathroom Fittings</span>
+                </a>
+                <a href="#brand-card-supreme-pipes" class="marquee-item" title="SUPREME PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/supreme.png" alt="SUPREME PIPES Official Logo">
+                    <span class="marquee-tag">Pipes &amp; Fittings</span>
+                </a>
+                <a href="#brand-card-astral-pipes" class="marquee-item" title="ASTRAL PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/astral.png" alt="ASTRAL PIPES Official Logo">
+                    <span class="marquee-tag">Plumbing Systems</span>
+                </a>
+                <a href="#brand-card-prince-pipes" class="marquee-item" title="PRINCE PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/prince.png" alt="PRINCE PIPES Official Logo">
+                    <span class="marquee-tag">Piping &amp; Drainage</span>
+                </a>
+                <a href="#brand-card-carysil-sinks" class="marquee-item" title="CARYSIL - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/carysil.png" alt="CARYSIL Luxury Sinks Official Logo">
+                    <span class="marquee-tag">Quartz Sinks</span>
+                </a>
+                <a href="#brand-card-somany-adhesive" class="marquee-item" title="SOMANY EZY FIX - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/somany.svg" alt="SOMANY EZY FIX Official Logo">
+                    <span class="marquee-tag">Tile Adhesives</span>
+                </a>
+                <a href="#brand-card-magnify-adhesive" class="marquee-item" title="MAGNIFY TILE ADHESIVE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/magnify.svg" alt="MAGNIFY TILE ADHESIVES Official Logo">
+                    <span class="marquee-tag">Tile Adhesives</span>
+                </a>
+                <a href="#brand-card-kaff-appliances" class="marquee-item" title="KAFF APPLIANCES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/kaff.png" alt="KAFF APPLIANCES Official Logo">
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
+                </a>
+                <a href="#brand-card-livpure-appliances" class="marquee-item" title="LIVPURE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/livpure.png" alt="LIVPURE Official Logo">
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
+                </a>
+                <a href="#brand-card-mts-appliances" class="marquee-item" title="MTS APPLIANCES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/mts.svg" alt="MTS APPLIANCES Official Logo">
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
+                </a>
+                <a href="#about-brand" class="marquee-item" title="EQUIL Signature Accessories">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/logo_equil.png" alt="Equil Logo">
+                    <span class="marquee-tag">Equil Range</span>
+                </a>
+
+                <!-- Loop 2 for Seamless Infinite Scroll -->
+                <a href="#brand-card-somany-tiles" class="marquee-item" title="SOMANY CERAMICS - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/somany.svg" alt="SOMANY CERAMICS Official Logo">
+                    <span class="marquee-tag">Designer Tiles</span>
+                </a>
+                <a href="#brand-card-kajaria-tiles" class="marquee-item" title="KAJARIA CERAMICS - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/kajaria.svg" alt="KAJARIA CERAMICS Official Logo">
+                    <span class="marquee-tag">Designer Tiles</span>
+                </a>
+                <a href="#brand-card-hindware-bath" class="marquee-item" title="HINDWARE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/hindware.svg" alt="HINDWARE Official Logo">
+                    <span class="marquee-tag">Bathroom Fittings</span>
+                </a>
+                <a href="#brand-card-jaquar-bath" class="marquee-item" title="JAQUAR - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/jaquar.svg" alt="JAQUAR Official Logo">
+                    <span class="marquee-tag">Bathroom Fittings</span>
+                </a>
+                <a href="#brand-card-supreme-pipes" class="marquee-item" title="SUPREME PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/supreme.png" alt="SUPREME PIPES Official Logo">
+                    <span class="marquee-tag">Pipes &amp; Fittings</span>
+                </a>
+                <a href="#brand-card-astral-pipes" class="marquee-item" title="ASTRAL PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/astral.png" alt="ASTRAL PIPES Official Logo">
+                    <span class="marquee-tag">Plumbing Systems</span>
+                </a>
+                <a href="#brand-card-prince-pipes" class="marquee-item" title="PRINCE PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/prince.png" alt="PRINCE PIPES Official Logo">
+                    <span class="marquee-tag">Piping &amp; Drainage</span>
+                </a>
+                <a href="#brand-card-carysil-sinks" class="marquee-item" title="CARYSIL - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/carysil.png" alt="CARYSIL Luxury Sinks Official Logo">
+                    <span class="marquee-tag">Quartz Sinks</span>
+                </a>
+                <a href="#brand-card-somany-adhesive" class="marquee-item" title="SOMANY EZY FIX - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/somany.svg" alt="SOMANY EZY FIX Official Logo">
+                    <span class="marquee-tag">Tile Adhesives</span>
+                </a>
+                <a href="#brand-card-magnify-adhesive" class="marquee-item" title="MAGNIFY TILE ADHESIVE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/magnify.svg" alt="MAGNIFY TILE ADHESIVES Official Logo">
+                    <span class="marquee-tag">Tile Adhesives</span>
+                </a>
+                <a href="#brand-card-kaff-appliances" class="marquee-item" title="KAFF APPLIANCES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/kaff.png" alt="KAFF APPLIANCES Official Logo">
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
+                </a>
+                <a href="#brand-card-livpure-appliances" class="marquee-item" title="LIVPURE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/livpure.png" alt="LIVPURE Official Logo">
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
+                </a>
+                <a href="#brand-card-mts-appliances" class="marquee-item" title="MTS APPLIANCES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/mts.svg" alt="MTS APPLIANCES Official Logo">
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
+                </a>
+                <a href="#about-brand" class="marquee-item" title="EQUIL Signature Accessories">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/logo_equil.png" alt="Equil Logo">
+                    <span class="marquee-tag">Equil Range</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SS Global & Equil Section -->
+    <section class="section brand-synergy-section" id="about-brand">
+        <div class="container">
+            <div class="section-header-centered reveal-on-scroll">
+                <span class="section-tag">Enterprise Portfolio</span>
+                <h2 class="section-title">SS Global & Equil</h2>
+                <p class="section-desc">SS Global is the premier showroom supplying world-class tiles and bathroom fittings, proudly showcasing Equil as our signature brand for luxury bathroom accessories and modern kitchen solutions.</p>
+            </div>
+
+            <div class="brand-synergy-grid">
+                <!-- SS Global Card -->
+                <div class="synergy-card reveal-on-scroll stagger-1">
+                    <div class="synergy-logo-box">
+                        <img src="static/images/logo_ssglobal.png" alt="SS GLOBAL Logo" class="synergy-logo-firm">
+                    </div>
+                    <span class="synergy-tag">Showroom & Supply</span>
+                    <h3 class="synergy-title">SS GLOBAL</h3>
+                    <p class="synergy-desc">Our flagship showroom located in Dwarka Mor, New Delhi. Importers and distributors of designer vitrified tiles, bathroom fittings, and architectural consultation for luxury villas and residences.</p>
+                    <ul class="synergy-features">
+                        <li><span class="synergy-check">&#10003;</span> Exclusive Designer Tiles & Bathroom Fittings</li>
+                        <li><span class="synergy-check">&#10003;</span> Architect & Interior Designer Material Supply</li>
+                        <li><span class="synergy-check">&#10003;</span> Premium Showroom Experience Center</li>
+                    </ul>
+                </div>
+
+                <!-- Connector -->
+                <div class="synergy-connector">
+                    <div class="synergy-connector-line"></div>
+                    <div class="synergy-connector-badge">+</div>
+                    <div class="synergy-connector-line"></div>
+                </div>
+
+                <!-- Equil Card -->
+                <div class="synergy-card reveal-on-scroll stagger-2">
+                    <div class="synergy-logo-box">
+                        <img src="static/images/logo_equil.png" alt="EQUIL Logo" class="synergy-logo-equil">
+                    </div>
+                    <span class="synergy-tag">Signature Products</span>
+                    <h3 class="synergy-title">EQUIL</h3>
+                    <p class="synergy-desc">Specialized in premium bathroom and kitchen accessories. Crafted with flawless precision, featuring designer brass faucets, thermostatic rain showers, and motion-sensing auto-clean chimneys.</p>
+                    <ul class="synergy-features">
+                        <li><span class="synergy-check">&#10003;</span> Designer Bathroom Accessories & Rain Showers</li>
+                        <li><span class="synergy-check">&#10003;</span> Filterless Gesture Auto-Clean Kitchen Chimneys</li>
+                        <li><span class="synergy-check">&#10003;</span> Rose Gold, Brushed Gold & Matte Black Brassware</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dedicated Authorised Dealerships Section -->
+    <section class="section authorised-section" id="authorised-brands">
+        <div class="container">
+            <div class="section-header-centered reveal-on-scroll">
+                <span class="section-tag">Direct Factory Channel Partner</span>
+                <h2 class="section-title">Official Authorised Brand Dealerships</h2>
+                <p class="section-desc">SS Global Dwarka Mor is the verified authorised showroom dealer for India's foremost brands across designer tiles, luxury bathroom fittings, high-bond tile adhesives, and smart kitchen appliances. Enjoy direct-from-factory pricing, 100% genuine products, and official manufacturer warranties.</p>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="brand-filters reveal-on-scroll stagger-1">
+                <button class="brand-filter-btn active" data-brand-filter="all">
+                    All Authorised Brands <span class="count-badge">13</span>
+                </button>
+                <button class="brand-filter-btn" data-brand-filter="tiles">
+                    Tiles &amp; Surfaces <span class="count-badge">2</span>
+                </button>
+                <button class="brand-filter-btn" data-brand-filter="bathroom">
+                    Bathroom Fittings <span class="count-badge">2</span>
+                </button>
+                <button class="brand-filter-btn" data-brand-filter="pipes">
+                    Pipes &amp; Plumbing <span class="count-badge">3</span>
+                </button>
+                <button class="brand-filter-btn" data-brand-filter="adhesives">
+                    Tile Adhesives <span class="count-badge">2</span>
+                </button>
+                <button class="brand-filter-btn" data-brand-filter="appliances">
+                    Kitchen, Sinks &amp; Appliances <span class="count-badge">4</span>
+                </button>
+            </div>
+
+            <!-- Authorised Brands Grid (Crisp & Short Overview) -->
+            <div class="authorised-brands-grid">
+                <!-- 1. Somany -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-somany-tiles" data-category="tiles">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Tiles &amp; Slabs</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/somany.svg" alt="SOMANY CERAMICS Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">SOMANY CERAMICS</h3>
+                        <p class="brand-card-tagline">Ceramic &amp; Vitrified Architectural Surfaces</p>
+                        <p class="brand-card-desc">Official showroom dealer for Glazed Vitrified Tiles (GVT/PGVT), Duragres heavy-duty slabs, and designer wall concepts.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">GVT / PGVT Slabs</span>
+                            <span class="brand-tag-chip">Duragres</span>
+                            <span class="brand-tag-chip">Slip-Shield Tiles</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="SOMANY CERAMICS" data-service-key="brand-somany-tiles">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 2. Kajaria -->
+                <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-kajaria-tiles" data-category="tiles">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Tiles &amp; Slabs</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/kajaria.svg" alt="KAJARIA CERAMICS Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">KAJARIA CERAMICS</h3>
+                        <p class="brand-card-tagline">India's No. 1 Tile Manufacturer</p>
+                        <p class="brand-card-desc">Showroom distributor for Eternity polished vitrified tiles, large-format luxury slabs, and high-definition wall tiles.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Eternity Slabs</span>
+                            <span class="brand-tag-chip">Polished Vitrified</span>
+                            <span class="brand-tag-chip">Outdoor Pavers</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="KAJARIA CERAMICS" data-service-key="brand-kajaria-tiles">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 3. Hindware -->
+                <div class="brand-card reveal-on-scroll stagger-3" id="brand-card-hindware-bath" data-category="bathroom">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Bathroom Fittings</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/hindware.svg" alt="HINDWARE Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">HINDWARE</h3>
+                        <p class="brand-card-tagline">Iconic Sanitaryware &amp; Bath Fixtures</p>
+                        <p class="brand-card-desc">Authorised supplier of Italian collection rimless smart closets, designer basins, sensor faucets, and vanity setups.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Italian Collection</span>
+                            <span class="brand-tag-chip">Smart WCs</span>
+                            <span class="brand-tag-chip">Brass Mixers</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="HINDWARE" data-service-key="brand-hindware-bath">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 4. Jaquar -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-jaquar-bath" data-category="bathroom">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Bathroom Fittings</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/jaquar.svg" alt="JAQUAR Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">JAQUAR</h3>
+                        <p class="brand-card-tagline">Luxury Bathware &amp; Wellness Solutions</p>
+                        <p class="brand-card-desc">Official showroom dealer for Jaquar faucets, thermostatic multi-mode rain showers, sanitaryware, and luxury accessories.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Artize &amp; Jaquar Faucets</span>
+                            <span class="brand-tag-chip">Rain Showers</span>
+                            <span class="brand-tag-chip">10-Yr Warranty</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="JAQUAR" data-service-key="brand-jaquar-bath">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 5. Somany Ezy Fix -->
+                <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-somany-adhesive" data-category="adhesives">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Tile Adhesives</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/somany.svg" alt="SOMANY EZY FIX Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">SOMANY EZY FIX</h3>
+                        <p class="brand-card-tagline">Polymer Tile Adhesives &amp; Grouts</p>
+                        <p class="brand-card-desc">Heavy-strength polymer adhesives engineered for vitrified slab fixing, waterproof epoxy grouts, and surface care chemicals.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">High-Bond Polymer</span>
+                            <span class="brand-tag-chip">Slab Fixing</span>
+                            <span class="brand-tag-chip">Epoxy Grouts</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="SOMANY EZY FIX" data-service-key="brand-somany-adhesive">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 6. Kaff Appliances -->
+                <div class="brand-card reveal-on-scroll stagger-3" id="brand-card-kaff-appliances" data-category="appliances">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Kitchen Appliances</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/kaff.png" alt="KAFF APPLIANCES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">KAFF APPLIANCES</h3>
+                        <p class="brand-card-tagline">Built-In Smart Kitchen Appliances</p>
+                        <p class="brand-card-desc">Premium filterless gesture auto-clean chimneys, toughened glass brass hobs, built-in microwave ovens, and dishwashers.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Auto-Clean Chimneys</span>
+                            <span class="brand-tag-chip">Brass Hobs</span>
+                            <span class="brand-tag-chip">Built-In Ovens</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="KAFF APPLIANCES" data-service-key="brand-kaff-appliances">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 7. Livpure -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-livpure-appliances" data-category="appliances">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Kitchen Appliances</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/livpure.png" alt="LIVPURE Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">LIVPURE</h3>
+                        <p class="brand-card-tagline">Advanced Smart RO Water Purifiers</p>
+                        <p class="brand-card-desc">7-stage RO + UV + Mineralizer copper-boosted purifiers, smart domestic water softeners, and energy-efficient kitchen appliances.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Copper RO Systems</span>
+                            <span class="brand-tag-chip">Water Softeners</span>
+                            <span class="brand-tag-chip">IoT Connected</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="LIVPURE" data-service-key="brand-livpure-appliances">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 8. MTS Appliances -->
+                <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-mts-appliances" data-category="appliances">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Kitchen Appliances</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/mts.svg" alt="MTS APPLIANCES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">MTS APPLIANCES</h3>
+                        <p class="brand-card-tagline">Durable Home &amp; Kitchen Utilities</p>
+                        <p class="brand-card-desc">Energy-rated storage and instant water geysers, heavy-duty suction kitchen chimneys, and toughened glass cooktops.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Water Geysers</span>
+                            <span class="brand-tag-chip">Glass Cooktops</span>
+                            <span class="brand-tag-chip">Energy Star Rated</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="MTS APPLIANCES" data-service-key="brand-mts-appliances">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 9. Supreme Pipes -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-supreme-pipes" data-category="pipes">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Pipes &amp; Plumbing</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/supreme.png" alt="SUPREME PIPES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">SUPREME PIPES</h3>
+                        <p class="brand-card-tagline">Total Piping &amp; Plumbing Solutions</p>
+                        <p class="brand-card-desc">Authorised stockist for Supreme Lifeline CPVC, Aqua Gold UPVC high-pressure pipes, and SWR underground drainage fittings.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Lifeline CPVC</span>
+                            <span class="brand-tag-chip">Aqua Gold UPVC</span>
+                            <span class="brand-tag-chip">SWR Drainage</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="SUPREME PIPES" data-service-key="brand-supreme-pipes">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 10. Astral Pipes -->
+                <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-astral-pipes" data-category="pipes">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Pipes &amp; Plumbing</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/astral.png" alt="ASTRAL PIPES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">ASTRAL PIPES</h3>
+                        <p class="brand-card-tagline">Engineered Zero-Leak Plumbing Systems</p>
+                        <p class="brand-card-desc">Official dealer supplying Astral FlowGuard CPVC, Aquarius lead-free UPVC, and Silencio low-noise acoustic drainage pipes.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">FlowGuard CPVC</span>
+                            <span class="brand-tag-chip">Aquarius UPVC</span>
+                            <span class="brand-tag-chip">Silencio Drainage</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="ASTRAL PIPES" data-service-key="brand-astral-pipes">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 11. Prince Pipes -->
+                <div class="brand-card reveal-on-scroll stagger-3" id="brand-card-prince-pipes" data-category="pipes">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Pipes &amp; Plumbing</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/prince.png" alt="PRINCE PIPES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">PRINCE PIPES</h3>
+                        <p class="brand-card-tagline">Decades of Trust in Piping &amp; Drainage</p>
+                        <p class="brand-card-desc">Authorised channel partner for Prince Flowfit CPVC, Easyfit UPVC systems, and Ultrafit leakproof SWR drainage with heavy seals.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Flowfit CPVC</span>
+                            <span class="brand-tag-chip">Easyfit UPVC</span>
+                            <span class="brand-tag-chip">Ultrafit SWR</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="PRINCE PIPES" data-service-key="brand-prince-pipes">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 12. Carysil Sinks -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-carysil-sinks" data-category="appliances">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Kitchen Sinks</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/carysil.png" alt="CARYSIL Luxury Sinks Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">CARYSIL</h3>
+                        <p class="brand-card-tagline">German Engineered Quartz Kitchen Sinks</p>
+                        <p class="brand-card-desc">Official showroom dealer for Carysil 80% natural quartz composite sinks, workstation sinks, designer faucets, and appliances.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">80% Quartz Tech</span>
+                            <span class="brand-tag-chip">Scratch Resistant</span>
+                            <span class="brand-tag-chip">Workstation Sinks</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="CARYSIL" data-service-key="brand-carysil-sinks">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 13. Magnify -->
+                <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-magnify-adhesive" data-category="adhesives">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Tile Adhesives</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/magnify.svg" alt="MAGNIFY TILE ADHESIVES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">MAGNIFY ADHESIVES</h3>
+                        <p class="brand-card-tagline">Polymer Tile Adhesives &amp; Epoxy Grouts</p>
+                        <p class="brand-card-desc">Authorised dealer for Magnify heavy-bond polymer adhesives, large vitrified slab fixers, and waterproof epoxy chemical grouts.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Polymer Bond</span>
+                            <span class="brand-tag-chip">Slab Fixing Mortar</span>
+                            <span class="brand-tag-chip">Epoxy Grouts</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="MAGNIFY ADHESIVES" data-service-key="brand-magnify-adhesive">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dealership Trust Guarantee Bar -->
+            <div class="dealer-trust-bar reveal-on-scroll">
+                <div class="dealer-trust-item">
+                    <div class="dealer-trust-icon">&#10004;</div>
+                    <div class="dealer-trust-text">
+                        <h4>100% Genuine Certified</h4>
+                        <p>Direct manufacturer billing ensures authentic grade-1 materials with zero compromises.</p>
+                    </div>
+                </div>
+                <div class="dealer-trust-item">
+                    <div class="dealer-trust-icon">&#9733;</div>
+                    <div class="dealer-trust-text">
+                        <h4>Official Brand Warranty</h4>
+                        <p>All bath fittings, chimneys, and appliances come backed by full manufacturer support.</p>
+                    </div>
+                </div>
+                <div class="dealer-trust-item">
+                    <div class="dealer-trust-icon">&#128176;</div>
+                    <div class="dealer-trust-text">
+                        <h4>Direct Dealer Pricing</h4>
+                        <p>Enjoy wholesale showroom rates, contractor slabs, and architect partnership margins.</p>
+                    </div>
+                </div>
+                <div class="dealer-trust-item">
+                    <div class="dealer-trust-icon">&#128666;</div>
+                    <div class="dealer-trust-text">
+                        <h4>Showroom Stock & Dispatch</h4>
+                        <p>Vast inventory at Dwarka Mor showroom ready for fast delivery without site delays.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Grid Section -->
+    <section class="section categories-section" id="categories">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-tag">Showroom Departments</span>
+                <h2 class="section-title">Explore Our Curated Offerings</h2>
+            </div>
+            
+            <div class="categories-grid">
+                                <div class="category-card reveal-on-scroll stagger-1" id="card-tiles-bath">
+                    <div class="category-img-container">
+                        <img src="static/images/designer_tiles.png" alt="Designer Tiles & Bathroom Fittings" class="category-img">
+                    </div>
+                    <div class="category-info">
+                        <span class="category-tagline">Premium Tiles & Luxury Bath Concepts</span>
+                        <h3 class="category-title">Designer Tiles & Bathroom Fittings</h3>
+                        <p class="category-desc">Elevate your floors, walls, and bathrooms with our exquisite range of large-format glazed vitrified tiles, designer wall concepts, and luxury bathroom fittings.</p>
+                    </div>
+                </div>
+                <div class="category-card reveal-on-scroll stagger-2" id="card-bath-fittings">
+                    <div class="category-img-container">
+                        <img src="static/images/bath_fittings.png" alt="Equil Bath & Accessories" class="category-img">
+                    </div>
+                    <div class="category-info">
+                        <span class="category-tagline">Equil Signature Taps & Rain Showers</span>
+                        <h3 class="category-title">Equil Bath & Accessories</h3>
+                        <p class="category-desc">Experience bathroom luxury with Equil designer taps, smart thermostatic shower heads, premium brassware, and luxury gold, rose gold, and matte black bath accessories.</p>
+                    </div>
+                </div>
+                <div class="category-card reveal-on-scroll stagger-3" id="card-kitchen-chimneys">
+                    <div class="category-img-container">
+                        <img src="static/images/kitchen_chimney.png" alt="Equil Kitchen Innovations" class="category-img">
+                    </div>
+                    <div class="category-info">
+                        <span class="category-tagline">Auto-Clean Chimneys & Built-in Hobs</span>
+                        <h3 class="category-title">Equil Kitchen Innovations</h3>
+                        <p class="category-desc">Transform your culinary space with Equil filterless gesture-controlled auto-clean chimneys, heavy-duty multi-burner hobs, and designer quartz & stainless sinks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Filterable Showcase Gallery -->
+    <section class="section showcase-section" id="collections">
+        <div class="container">
+            <div class="section-header-centered reveal-on-scroll">
+                <span class="section-tag">Showcase Gallery</span>
+                <h2 class="section-title">Design Inspiration & Textures</h2>
+                
+                <!-- Filter Controls -->
+                <div class="filter-controls" id="filter-controls">
+                    <button class="filter-btn active" data-filter="all">All Collections</button>
+                    <button class="filter-btn" data-filter="tiles-bath">Tiles & Bathroom Fittings</button>
+                    <button class="filter-btn" data-filter="bath-fittings">Bath Fittings & Showers</button>
+                    <button class="filter-btn" data-filter="kitchen-chimneys">Kitchen & Chimneys</button>
+                </div>
+            </div>
+
+            <!-- Grid Items -->
+            <div class="showcase-grid" id="showcase-grid">
+                <div class="gallery-item tiles-bath reveal-on-scroll stagger-1">
+                    <img src="static/images/designer_tiles.png" alt="Designer Vitrified Tiles & Surfaces">
+                    <div class="gallery-overlay">
+                        <h4>Designer Vitrified Surface</h4>
+                        <p>High-Gloss Architectural Tile Concept</p>
+                    </div>
+                </div>
+                <div class="gallery-item bath-fittings reveal-on-scroll stagger-2">
+                    <img src="static/images/bath_fittings.png" alt="Brushed Gold Basin Tap">
+                    <div class="gallery-overlay">
+                        <h4>Brushed Gold Mixer</h4>
+                        <p>Designer Brass Bathroom Tap</p>
+                    </div>
+                </div>
+                <div class="gallery-item kitchen-chimneys reveal-on-scroll stagger-3">
+                    <img src="static/images/kitchen_chimney.png" alt="Auto Clean Kitchen Chimney">
+                    <div class="gallery-overlay">
+                        <h4>Minimalist Smart Chimney</h4>
+                        <p>Gesture Control Auto-Clean Chimney</p>
+                    </div>
+                </div>
+                <div class="gallery-item bath-fittings reveal-on-scroll stagger-4">
+                    <img src="static/images/hero_showroom.png" alt="Rain Shower Showcase">
+                    <div class="gallery-overlay">
+                        <h4>Rainfall Sanctuary</h4>
+                        <p>Thermostatic Multi-Flow Shower System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us & Accordion Specifications -->
+    <section class="section highlights-section" id="highlights">
+        <div class="container split-layout">
+            <div class="highlights-text reveal-on-scroll">
+                <span class="section-tag">Quality Commitments</span>
+                <h2 class="section-title">Delivering Perfection to Your Doorstep</h2>
+                <p class="highlight-intro">From luxury materials to architectural consultation, we provide an unmatched service experience for architects, builders, and homeowners alike.</p>
+                
+                <div class="accordion-container">
+                                        <div class="accordion-row">
+                        <button class="accordion-toggle" id="toggle-1">
+                            <span class="accordion-title">Curated Collections</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="accordion-desc">Every single tile design, chimney model, and tap fixture is handpicked by design experts to ensure premium grade quality and modern design trends.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-row">
+                        <button class="accordion-toggle" id="toggle-2">
+                            <span class="accordion-title">Architect & Designer Consultation</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="accordion-desc">We collaborate directly with your interior designers and architects to supply bulk materials, customize patterns, and offer direct showroom consults.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-row">
+                        <button class="accordion-toggle" id="toggle-3">
+                            <span class="accordion-title">Prompt Delivery & Quality Guarantee</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="accordion-desc">With our vast inventory and strict quality checks, we ensure your building project progresses without delays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="highlights-decor reveal-on-scroll stagger-2">
+                <div class="decor-box">
+                    <span class="decor-stat">100%</span>
+                    <span class="decor-label">Genuine Brassware, Ceramics & Designer Tiles</span>
+                </div>
+                <div class="decor-box outline">
+                    <span class="decor-stat">5★</span>
+                    <span class="decor-label">Customer Satisfaction Rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header-centered reveal-on-scroll">
+                <span class="section-tag">Architect & Client Voices</span>
+                <h2 class="section-title">Loved by Design Experts</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                                <div class="testimonial-card reveal-on-scroll stagger-1">
+                    <div class="quote-icon">“</div>
+                    <p class="quote-text">SS Global is our go-to showroom in Delhi for premium bath fixtures and tiles. The brushed gold shower collections and designer tile concepts completely redefined our villa design.</p>
+                    <div class="quote-author">
+                        <span class="author-name">Ananya Sharma</span>
+                        <span class="author-role">Lead Architect, Studio Elements</span>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal-on-scroll stagger-2">
+                    <div class="quote-icon">“</div>
+                    <p class="quote-text">The gestured kitchen chimney and designer hardware handles we bought from them are extremely durable and sleek. Exceptional customer service!</p>
+                    <div class="quote-author">
+                        <span class="author-name">Rajesh Yaduvanshi</span>
+                        <span class="author-role">Homeowner, Dwarka</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Inquiry / Showroom Visit Form -->
+    <section class="section inquiry-section" id="inquiry">
+        <div class="container-narrow">
+            <div class="section-header-centered reveal-on-scroll">
+                <span class="section-tag">Showroom Visit & Price Request</span>
+                <h2 class="section-title">Connect with SS Global</h2>
+                <p class="section-desc">Submit your details to request catalogues, price sheets, or book a private showroom tour with our design consultant for any of our authorised brands.</p>
+            </div>
+            
+            <form id="inquiry-form" class="inquiry-form reveal-on-scroll" action="https://formsubmit.co/sales.ssgloball@gmail.com" method="POST">
+                <!-- FormSubmit Configuration for Pure Frontend Email Delivery to sales.ssgloball@gmail.com -->
+                <input type="hidden" name="_subject" value="New Showroom Catalogue & Price Inquiry - SS Global">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <div class="form-row-grid">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                </div>
+                <div class="form-row-grid">
+                    <div class="form-group">
+                        <label for="phone">Phone / WhatsApp</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Department / Brand of Interest</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select Department or Authorised Brand</option>
+                            <optgroup label="Pipes &amp; Plumbing Systems">
+                                <option value="brand-supreme-pipes">Supreme Pipes - CPVC, UPVC &amp; SWR Drainage</option>
+                                <option value="brand-astral-pipes">Astral Pipes - FlowGuard Plus &amp; High-Pressure Plumbing</option>
+                                <option value="brand-prince-pipes">Prince Pipes - Acoustic Drainage &amp; Building Plumbing</option>
+                            </optgroup>
+                            <optgroup label="Kitchen Sinks &amp; Appliances">
+                                <option value="brand-carysil-sinks">Carysil - German Quartz &amp; Granite Kitchen Sinks</option>
+                                <option value="brand-kaff-appliances">Kaff - Built-in Kitchen Chimneys &amp; Hobs</option>
+                                <option value="brand-livpure-appliances">Livpure - Smart RO Water Purifiers &amp; Appliances</option>
+                                <option value="brand-mts-appliances">MTS - Home Appliances &amp; Water Geysers</option>
+                            </optgroup>
+                            <optgroup label="Tile Adhesives &amp; Chemical Grouts">
+                                <option value="brand-somany-adhesive">Somany Ezy Fix - Tile Adhesives &amp; Grouts</option>
+                                <option value="brand-magnify-adhesive">Magnify - High-Bond Polymer Adhesives &amp; Epoxy Grouts</option>
+                            </optgroup>
+                            <optgroup label="Designer Tiles &amp; Surfaces">
+                                <option value="brand-somany-tiles">Somany Ceramics - Vitrified &amp; Floor Tiles</option>
+                                <option value="brand-kajaria-tiles">Kajaria Ceramics - Premium Wall &amp; Floor Tiles</option>
+                            </optgroup>
+                            <optgroup label="Luxury Bathroom Solutions">
+                                <option value="brand-hindware-bath">Hindware - Bathware &amp; Sanitary Solutions</option>
+                                <option value="brand-jaquar-bath">Jaquar - Luxury Bathroom Fittings &amp; Showers</option>
+                            </optgroup>
+                            <optgroup label="Showroom Departments">
+                                <option value="tiles-bath">Tiles &amp; Bathroom Fittings (General)</option>
+                                <option value="bath-fittings">Equil Bath Fittings &amp; Showers</option>
+                                <option value="kitchen-chimneys">Equil Kitchen Chimneys &amp; Hobs</option>
+                                <option value="general-inquiry">Complete Villa / Project Consultation</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Project Requirements</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Briefly describe your building project size or the products you need quotes for..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Send Inquiry Request</button>
+            </form>
+
+            <div id="form-success" class="form-success">
+                <div class="checkmark-wrapper">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                        <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                    </svg>
+                </div>
+                <h3 class="success-title" id="success-title-text">Inquiry Sent Successfully!</h3>
+                <p class="success-message" id="success-feedback-text">Thank you for reaching out! Your query has been submitted to <strong>sales.ssgloball@gmail.com</strong>. Our design consultant will review your specifications and contact you shortly.</p>
+                <div id="activation-notice" style="display:none; max-width: 520px; background: rgba(197, 168, 128, 0.12); border: 1px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 4px; margin: 1.25rem auto 0 auto; text-align: left; font-size: 0.88rem; color: var(--text-primary); line-height: 1.5;">
+                    <strong>📬 One-Time Setup for sales.ssgloball@gmail.com:</strong><br>
+                    FormSubmit has sent an <em>"Activate Form"</em> email to <strong>sales.ssgloball@gmail.com</strong>. Please open it (check Spam or Updates tab if needed) and click the activation link once to enable direct inbox forwarding.
+                </div>
+                <div style="margin-top: 1.8rem; display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <a id="whatsapp-direct-inquiry" href="https://wa.me/919355609966?text=Hello%20SS%20Global%20Team,%20I%20would%20like%20to%20inquire%20about%20your%20showroom%20brands%20and%20catalogues." target="_blank" rel="noopener" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.6rem;">
+                        <span>💬</span> Chat with Consultant on WhatsApp Now
+                    </a>
+                    <a id="email-direct-fallback" href="mailto:sales.ssgloball@gmail.com" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.6rem 1.4rem;">
+                        <span>✉️</span> Direct Email to sales.ssgloball@gmail.com
+                    </a>
+                    <button type="button" id="reset-inquiry-btn" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.5rem 1.2rem; opacity: 0.85;">Submit Another Inquiry</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dedicated Showroom Address, Location & Direct Contact Section (Bottom Hub) -->
+    <section class="section showroom-contact-section" id="showroom-contact">
+        <div class="container">
+            <div class="section-header-centered reveal-on-scroll">
+                <span class="section-tag">Flagship Showroom Destination</span>
+                <h2 class="section-title">Visit Our Showroom &amp; Direct Contact</h2>
+                <p class="section-desc">Experience our comprehensive display of designer tiles, luxury sanitaryware, piping networks, and kitchen fixtures firsthand in Dwarka Mor, New Delhi.</p>
+            </div>
+
+            <div class="showroom-contact-grid reveal-on-scroll stagger-1">
+                <!-- Card 1: Address & Directions -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">📍</div>
+                    <h3 class="hub-card-title">Showroom Address</h3>
+                    <p class="hub-card-text">
+                        <strong>SS GLOBAL</strong><br>
+                        Plot No-18/27, Vipin Garden,<br>
+                        Near Metro Pillar No-803, Dwarka Mor,<br>
+                        New Delhi - 110059, India
+                    </p>
+                    <a href="https://maps.google.com/?q=Plot+No-18/27,+Vipin+Garden,+Near+Pillar+No-803,+Dwarka+Mor,+Delhi-110059" target="_blank" rel="noopener" class="hub-card-action">
+                        <span>Get Directions</span> &rarr;
+                    </a>
+                </div>
+
+                <!-- Card 2: Direct Phone -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">📞</div>
+                    <h3 class="hub-card-title">Direct Calling</h3>
+                    <p class="hub-card-text">
+                        Speak directly with our architectural showroom consultants for contractor rates, stock availability, and inquiries.
+                    </p>
+                    <a href="tel:+919355609966" class="hub-card-action">
+                        <span>Call: +91 9355609966</span>
+                    </a>
+                </div>
+
+                <!-- Card 3: WhatsApp Desk -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">💬</div>
+                    <h3 class="hub-card-title">WhatsApp Desk</h3>
+                    <p class="hub-card-text">
+                        Instant catalogs, PDF brochures, high-res tile photos, and official quotations sent directly to your phone.
+                    </p>
+                    <a href="https://wa.me/919355609966?text=Hello%20SS%20Global%20Team,%20I%20would%20like%20to%20inquire%20about%20your%20showroom%20brands,%20catalogues,%20and%20pricing." target="_blank" rel="noopener" class="hub-card-action">
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                </div>
+
+                <!-- Card 4: Timings & Email -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">⏰</div>
+                    <h3 class="hub-card-title">Hours &amp; Inquiries</h3>
+                    <p class="hub-card-text">
+                        <strong>Mon - Sat:</strong> 10:00 AM – 8:00 PM<br>
+                        <strong>Sunday:</strong> Closed<br>
+                        <strong>Email:</strong> sales.ssgloball@gmail.com
+                    </p>
+                    <a href="mailto:sales.ssgloball@gmail.com" class="hub-card-action">
+                        <span>Email Showroom</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="footer-dual-logos">
+                    <img src="static/images/logo_ssglobal.png" alt="SS Global Logo" class="footer-logo-firm">
+                    <div class="footer-logo-divider"></div>
+                    <img src="static/images/logo_equil.png" alt="Equil Logo" class="footer-logo-equil">
+                </div>
+                <p class="brand-desc"><strong>SS GLOBAL</strong> is the premier showroom in Dwarka Mor, New Delhi, proudly presenting <strong>EQUIL</strong> and serving as an <strong>Official Authorised Dealer</strong> for Somany, Kajaria, Hindware, Jaquar, Supreme Pipes, Astral Pipes, Prince Pipes, Carysil Sinks, Somany Ezy Fix, Magnify, Kaff, Livpure, and MTS.</p>
+                <div class="footer-contacts">
+                    <p><strong>Address:</strong> Plot No-18/27, Vipin Garden, Near Pillar No-803, Dwarka Mor, Dwarka More, Delhi-110059</p>
+                    <p><strong>Phone:</strong> <a href="tel:+919355609966">+91 9355609966</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:Sales.ssgloball@gmail.com">Sales.ssgloball@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4 class="footer-title">Authorised Brands</h4>
+                <ul>
+                    <li><a href="#brand-card-somany-tiles">Somany Ceramics</a></li>
+                    <li><a href="#brand-card-kajaria-tiles">Kajaria Ceramics</a></li>
+                    <li><a href="#brand-card-hindware-bath">Hindware Bathware</a></li>
+                    <li><a href="#brand-card-jaquar-bath">Jaquar Bath Solutions</a></li>
+                    <li><a href="#brand-card-supreme-pipes">Supreme Pipes</a></li>
+                    <li><a href="#brand-card-astral-pipes">Astral Pipes</a></li>
+                    <li><a href="#brand-card-prince-pipes">Prince Pipes</a></li>
+                    <li><a href="#brand-card-carysil-sinks">Carysil Quartz Sinks</a></li>
+                    <li><a href="#brand-card-somany-adhesive">Somany Tile Adhesives</a></li>
+                    <li><a href="#brand-card-magnify-adhesive">Magnify Adhesives</a></li>
+                    <li><a href="#brand-card-kaff-appliances">Kaff Kitchen Appliances</a></li>
+                    <li><a href="#brand-card-livpure-appliances">Livpure RO &amp; Appliances</a></li>
+                    <li><a href="#brand-card-mts-appliances">MTS Home Appliances</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-hours">
+                <h4 class="footer-title">Showroom Timings</h4>
+                <p>Monday - Saturday: 10:00 AM - 8:00 PM</p>
+                <p>Sunday: Closed</p>
+                <div class="map-link-container">
+                    <a href="https://maps.google.com/?q=Plot+No-18/27,+Vipin+Garden,+Near+Pillar+No-803,+Dwarka+Mor,+Delhi-110059" target="_blank" class="btn btn-text">Find Us on Google Maps &rarr;</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 SS GLOBAL. All rights reserved. Authorised Dealer & Architectural Showroom.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Authorised Dealer Quick WhatsApp Contact -->
+    <a href="https://wa.me/919355609966?text=Hello%20SS%20Global%20Team,%20I%20would%20like%20to%20inquire%20about%20your%20authorised%20brand%20catalogues%20and%20dealer%20pricing." target="_blank" rel="noopener" class="floating-dealer-contact" title="Chat on WhatsApp with Dealer Consultant">
+        <span class="wa-icon">&#128172;</span>
+        <span class="floating-text">Dealer Consultation</span>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+// --- ALL-IN-ONE SS GLOBAL CLIENT LOGIC ---
+document.addEventListener('DOMContentLoaded', () => {
+
+    // --- ALL CONTENT MENU DRAWER LOGIC ---
+    const menuToggleBtn = document.getElementById('menu-toggle-btn');
+    const closeMenuBtn = document.getElementById('close-menu-btn');
+    const contentDrawerOverlay = document.getElementById('content-menu-drawer');
+    const drawerLinks = document.querySelectorAll('.content-drawer a');
+
+    function openContentMenu() {
+        if (contentDrawerOverlay) {
+            contentDrawerOverlay.classList.add('active');
+            contentDrawerOverlay.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    function closeContentMenu() {
+        if (contentDrawerOverlay) {
+            contentDrawerOverlay.classList.remove('active');
+            contentDrawerOverlay.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = '';
+        }
+    }
+
+    if (menuToggleBtn) {
+        menuToggleBtn.addEventListener('click', openContentMenu);
+    }
+
+    if (closeMenuBtn) {
+        closeMenuBtn.addEventListener('click', closeContentMenu);
+    }
+
+    if (contentDrawerOverlay) {
+        contentDrawerOverlay.addEventListener('click', (e) => {
+            if (e.target === contentDrawerOverlay) {
+                closeContentMenu();
+            }
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && contentDrawerOverlay && contentDrawerOverlay.classList.contains('active')) {
+            closeContentMenu();
+        }
+    });
+
+    drawerLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            closeContentMenu();
+        });
+    });
+
+    // --- ACCORDION LOGIC ---
+    const accordionToggles = document.querySelectorAll('.accordion-toggle');
+    
+    accordionToggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+            const row = toggle.parentElement;
+            const content = row.querySelector('.accordion-content');
+            const isActive = row.classList.contains('active');
+            
+            // Close other open accordions
+            document.querySelectorAll('.accordion-row').forEach(otherRow => {
+                if (otherRow !== row) {
+                    otherRow.classList.remove('active');
+                    otherRow.querySelector('.accordion-content').style.maxHeight = '0px';
+                }
+            });
+            
+            if (!isActive) {
+                row.classList.add('active');
+                // Set max-height to scrollHeight for a smooth dynamic transition
+                content.style.maxHeight = `${content.scrollHeight}px`;
+            } else {
+                row.classList.remove('active');
+                content.style.maxHeight = '0px';
+            }
+        });
+    });
+
+    // --- AUTHORISED BRANDS FILTER LOGIC ---
+    const brandFilterButtons = document.querySelectorAll('.brand-filter-btn');
+    const brandCards = document.querySelectorAll('.brand-card');
+
+    if (brandFilterButtons.length > 0 && brandCards.length > 0) {
+        brandFilterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update active state
+                brandFilterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-brand-filter');
+
+                brandCards.forEach(card => {
+                    const cardCat = card.getAttribute('data-category');
+                    if (filterValue === 'all' || cardCat === filterValue) {
+                        card.classList.remove('hide');
+                        card.classList.remove('anim-pop-in');
+                        // Force reflow for restart of CSS animation
+                        void card.offsetWidth;
+                        card.classList.add('anim-pop-in');
+                    } else {
+                        card.classList.add('hide');
+                        card.classList.remove('anim-pop-in');
+                    }
+                });
+            });
+        });
+    }
+
+    // --- QUICK INQUIRE FOR BRAND HANDLER ---
+    const brandInquireBtns = document.querySelectorAll('.btn-brand-inquire');
+    const serviceSelect = document.getElementById('service');
+    const messageTextarea = document.getElementById('message');
+    const inquirySection = document.getElementById('inquiry');
+
+    brandInquireBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const brandName = btn.getAttribute('data-brand-name') || '';
+            const serviceKey = btn.getAttribute('data-service-key') || '';
+
+            // Update service select if matching option exists
+            if (serviceSelect && serviceKey) {
+                for (let i = 0; i < serviceSelect.options.length; i++) {
+                    if (serviceSelect.options[i].value === serviceKey) {
+                        serviceSelect.selectedIndex = i;
+                        break;
+                    }
+                }
+            }
+
+            // Pre-fill message
+            if (messageTextarea && brandName) {
+                messageTextarea.value = `Hello SS Global Team, I am interested in requesting the official catalogue, pricing, and availability for ${brandName} for our project.`;
+            }
+
+            // Smooth scroll to inquiry form
+            if (inquirySection) {
+                inquirySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Subtle highlight animation on the form
+                const formCard = document.getElementById('inquiry-form');
+                if (formCard) {
+                    formCard.style.transition = 'box-shadow 0.4s ease';
+                    formCard.style.boxShadow = '0 0 0 3px #C5A880, 0 15px 35px rgba(0,0,0,0.08)';
+                    setTimeout(() => {
+                        formCard.style.boxShadow = '';
+                    }, 1600);
+                }
+            }
+        });
+    });
+
+    // --- SHOWCASE GALLERY FILTER LOGIC ---
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active class from other buttons
+            filterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const filterValue = btn.getAttribute('data-filter');
+
+            galleryItems.forEach(item => {
+                if (filterValue === 'all') {
+                    item.classList.remove('hide');
+                } else {
+                    if (item.classList.contains(filterValue)) {
+                        item.classList.remove('hide');
+                    } else {
+                        item.classList.add('hide');
+                    }
+                }
+            });
+        });
+    });
+
+    // --- SCROLL REVEAL ANIMATIONS (INTERSECTION OBSERVER) ---
+    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+    
+    if ('IntersectionObserver' in window && revealElements.length > 0) {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.12,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+    } else {
+        // Fallback for older browsers
+        revealElements.forEach(el => el.classList.add('is-revealed'));
+    }
+
+    // --- CLIENT-SIDE INQUIRY FORM (DIRECT EMAIL TO SALES.SSGLOBALL@GMAIL.COM) ---
+    const inquiryForm = document.getElementById('inquiry-form');
+    const formSuccess = document.getElementById('form-success');
+    const submitBtn = document.getElementById('submit-btn');
+    const resetBtn = document.getElementById('reset-inquiry-btn');
+    const waDirectBtn = document.getElementById('whatsapp-direct-inquiry');
+    const emailFallbackBtn = document.getElementById('email-direct-fallback');
+
+    if (inquiryForm) {
+        inquiryForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData(inquiryForm);
+            const name = formData.get('name') || '';
+            const email = formData.get('email') || '';
+            const phone = formData.get('phone') || '';
+            const serviceKey = formData.get('service') || '';
+            const message = formData.get('message') || '';
+            
+            const serviceLabel = (serviceSelect && serviceSelect.options[serviceSelect.selectedIndex]) 
+                ? serviceSelect.options[serviceSelect.selectedIndex].text 
+                : serviceKey;
+            
+            // Set loading state on submit button
+            submitBtn.textContent = 'Sending to sales.ssgloball@gmail.com...';
+            submitBtn.disabled = true;
+
+            // Prepare WhatsApp pre-filled text
+            if (waDirectBtn) {
+                const formattedMsg = `*Showroom Inquiry - SS Global*\n\n` +
+                    `Hello SS Global Team,\n` +
+                    `I would like to request product catalogues, pricing, and availability details.\n\n` +
+                    `*Customer Details:*\n` +
+                    `• *Name:* ${name}\n` +
+                    `• *Phone:* ${phone}\n` +
+                    `• *Email:* ${email || 'Not provided'}\n` +
+                    `• *Brand / Department:* ${serviceLabel}\n\n` +
+                    `*Requirements:*\n${message}`;
+                waDirectBtn.href = `https://wa.me/919355609966?text=${encodeURIComponent(formattedMsg)}`;
+            }
+
+            // Prepare direct mailto fallback link with pre-filled subject and body
+            if (emailFallbackBtn) {
+                const mailSubject = `Showroom Inquiry from ${name} - SS Global`;
+                const mailBody = `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nDepartment / Brand: ${serviceLabel}\n\nProject Requirements:\n${message}`;
+                emailFallbackBtn.href = `mailto:sales.ssgloball@gmail.com?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
+            }
+
+            // Send query directly to sales.ssgloball@gmail.com via 100% frontend FormSubmit AJAX API
+            const activationNotice = document.getElementById('activation-notice');
+            const successTitle = document.getElementById('success-title-text');
+            const successFeedback = document.getElementById('success-feedback-text');
+
+            try {
+                const payload = {
+                    "Customer Name": name,
+                    "Email Address": email,
+                    "Phone / WhatsApp": phone,
+                    "Department or Brand": serviceLabel,
+                    "Project Requirements": message,
+                    "_subject": `New Showroom Inquiry: ${name} (${serviceLabel})`,
+                    "_replyto": email,
+                    "_template": "table",
+                    "_captcha": "false"
+                };
+
+                const response = await fetch('https://formsubmit.co/ajax/sales.ssgloball@gmail.com', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const resData = await response.json();
+
+                if (resData && (resData.success === 'true' || resData.success === true)) {
+                    if (activationNotice) activationNotice.style.display = 'none';
+                    if (successTitle) successTitle.textContent = 'Inquiry Sent Successfully!';
+                    if (successFeedback) {
+                        successFeedback.innerHTML = 'Thank you! Your query has been delivered directly to <strong>sales.ssgloball@gmail.com</strong>. Our consultant will contact you shortly.';
+                    }
+                } else if (resData && resData.message && resData.message.toLowerCase().includes('activation')) {
+                    if (activationNotice) activationNotice.style.display = 'block';
+                    if (successTitle) successTitle.textContent = 'One-Time Setup Required';
+                    if (successFeedback) {
+                        successFeedback.innerHTML = 'Inquiry captured! FormSubmit has sent a 1-click confirmation to <strong>sales.ssgloball@gmail.com</strong>. Open your email and click "Activate Form" once to start receiving inquiries.';
+                    }
+                }
+            } catch (error) {
+                // If offline or local file CORS, continue gracefully
+                console.warn('Form submission notice:', error);
+            }
+
+            // Show animated checkmark success card
+            inquiryForm.classList.add('hidden');
+            formSuccess.classList.add('visible');
+            formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+    }
+
+    if (resetBtn && inquiryForm && formSuccess) {
+        resetBtn.addEventListener('click', () => {
+            inquiryForm.reset();
+            submitBtn.textContent = 'Send Inquiry Request';
+            submitBtn.disabled = false;
+            const activationNotice = document.getElementById('activation-notice');
+            if (activationNotice) activationNotice.style.display = 'none';
+            formSuccess.classList.remove('visible');
+            inquiryForm.classList.remove('hidden');
+            inquiryForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    }
+});
+
+</script>
+</body>
+</html>
