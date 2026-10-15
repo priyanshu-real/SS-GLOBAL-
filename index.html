@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SS Global Showroom in Dwarka Mor, New Delhi - Official Authorised Dealer for Somany, Kajaria, Hindware, Jaquar, Kaff, Livpure, MTS, and exclusive Equil bath & kitchen innovations.">
-    <title>SS GLOBAL | Authorised Dealer - Somany, Kajaria, Hindware, Jaquar, Kaff, Livpure, MTS</title>
+    <meta name="description" content="SS Global Showroom in Dwarka Mor, New Delhi - Official Authorised Dealer for Somany, Kajaria, Hindware, Jaquar, Supreme Pipes, Astral Pipes, Prince Pipes, Carysil Sinks, Somany Ezy Fix, Magnify, Kaff, Livpure, MTS, and exclusive Equil bath &amp; kitchen collections.">
+    <title>SS GLOBAL | Authorised Dealer - Tiles, Bathware, Supreme &amp; Astral Pipes, Carysil Sinks</title>
     <!-- Premium Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,44 +12,151 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    
-    <!-- Top Contact Bar -->
-    <div class="top-announcement">
-        <div class="container-flex">
-            <span>Showroom: Plot No-18/27, Vipin Garden, Near Pillar No-803, Dwarka Mor, Dwarka More, Delhi-110059</span>
-            <a href="tel:+919355609966" class="phone-link">Call: +91 9355609966</a>
-        </div>
-    </div>
-
     <!-- Navigation Header -->
     <header class="header">
         <nav class="nav container-flex">
-            <a href="#" class="brand-header-link">
-                <div class="brand-firm-wrap">
+            <div class="header-brands-bar">
+                <!-- SS GLOBAL Primary Brand -->
+                <a href="#" class="header-brand-unit brand-ssglobal" title="SS GLOBAL Flagship Showroom">
                     <img src="static/images/logo_ssglobal.png" alt="SS GLOBAL Logo" class="firm-logo-img">
-                    <div class="brand-firm-meta">
-                        <span class="brand-firm-name">SS GLOBAL</span>
-                        <span class="brand-firm-type">Showroom & Supply</span>
+                    <div class="brand-text-meta">
+                        <span class="brand-main-name">SS GLOBAL</span>
+                        <span class="brand-sub-badge">Flagship Showroom</span>
                     </div>
+                </a>
+
+                <!-- Luxury Synergy Connector -->
+                <div class="header-synergy-divider" aria-hidden="true">
+                    <span class="synergy-line"></span>
+                    <span class="synergy-tag">FEATURING</span>
+                    <span class="synergy-line"></span>
                 </div>
-                <div class="brand-header-divider"></div>
-                <div class="brand-equil-wrap">
+
+                <!-- EQUIL Signature Brand -->
+                <a href="#about-brand" class="header-brand-unit brand-equil" title="EQUIL Signature Collection">
                     <img src="static/images/logo_equil.png" alt="EQUIL Logo" class="brand-equil-img">
-                    <div class="brand-equil-meta">
-                        <span class="brand-equil-tag">Equil Collection</span>
+                    <div class="brand-text-meta">
+                        <span class="brand-main-name">EQUIL</span>
+                        <span class="brand-sub-badge">Signature Bath &amp; Kitchen</span>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
+
             <div class="nav-menu" id="nav-menu">
-                <a href="#about-brand" class="nav-item">SS Global & Equil</a>
-                <a href="#authorised-brands" class="nav-item">Authorised Brands</a>
-                <a href="#collections" class="nav-item">Collections</a>
-                <a href="#categories" class="nav-item">Departments</a>
-                <a href="#highlights" class="nav-item">Why Us</a>
-                <a href="#inquiry" class="nav-item btn-nav">Request Catalog</a>
+                <button type="button" id="menu-toggle-btn" class="btn-all-menu" aria-label="Open Navigation Menu" title="Open Full Menu">
+                    <span class="menu-icon">&#9776;</span>
+                </button>
             </div>
         </nav>
     </header>
+
+    <!-- Full Showroom All Content Directory Menu Drawer (Off-Canvas) -->
+    <div id="content-menu-drawer" class="content-drawer-overlay" aria-hidden="true">
+        <div class="content-drawer">
+            <div class="drawer-header">
+                <div>
+                    <h3 class="drawer-brand-title">SS GLOBAL SHOWROOM</h3>
+                    <p class="drawer-brand-subtitle">Complete Site &amp; Content Directory</p>
+                </div>
+                <button type="button" id="close-menu-btn" class="drawer-close-btn" aria-label="Close Menu">&times;</button>
+            </div>
+            <div class="drawer-body">
+                <!-- Section 1: Main Showroom Pages -->
+                <div class="drawer-block">
+                    <div class="drawer-block-title">
+                        <span>Showroom Overview</span>
+                        <span class="badge-num">6 Sections</span>
+                    </div>
+                    <div class="drawer-nav-grid">
+                        <a href="#hero" class="drawer-nav-link"><span class="icon">&#127963;</span> Welcome &amp; Hero</a>
+                        <a href="#about-brand" class="drawer-nav-link"><span class="icon">&#10024;</span> SS Global &amp; EQUIL</a>
+                        <a href="#authorised-brands" class="drawer-nav-link"><span class="icon">&#127942;</span> 13 Authorised Brands</a>
+                        <a href="#collections" class="drawer-nav-link"><span class="icon">&#128444;</span> Luxury Collections</a>
+                        <a href="#categories" class="drawer-nav-link"><span class="icon">&#128193;</span> Product Departments</a>
+                        <a href="#inquiry" class="drawer-nav-link"><span class="icon">&#128221;</span> Request Official Catalog</a>
+                    </div>
+                </div>
+
+                <!-- Section 2: All 13 Authorised Brands -->
+                <div class="drawer-block">
+                    <div class="drawer-block-title">
+                        <span>Authorised Brand Showcase</span>
+                        <span class="badge-num">13 Brands</span>
+                    </div>
+                    <div class="drawer-brands-grid">
+                        <a href="#brand-card-somany-tiles" class="drawer-brand-item">
+                            <span class="brand-item-name">Somany Ceramics</span>
+                            <span class="brand-item-cat">Tiles &amp; Slabs</span>
+                        </a>
+                        <a href="#brand-card-kajaria-tiles" class="drawer-brand-item">
+                            <span class="brand-item-name">Kajaria Ceramics</span>
+                            <span class="brand-item-cat">Tiles &amp; Slabs</span>
+                        </a>
+                        <a href="#brand-card-hindware-bath" class="drawer-brand-item">
+                            <span class="brand-item-name">Hindware</span>
+                            <span class="brand-item-cat">Sanitary &amp; Bath</span>
+                        </a>
+                        <a href="#brand-card-jaquar-bath" class="drawer-brand-item">
+                            <span class="brand-item-name">Jaquar</span>
+                            <span class="brand-item-cat">Faucets &amp; Showers</span>
+                        </a>
+                        <a href="#brand-card-supreme-pipes" class="drawer-brand-item">
+                            <span class="brand-item-name">Supreme Pipes</span>
+                            <span class="brand-item-cat">CPVC, UPVC &amp; SWR</span>
+                        </a>
+                        <a href="#brand-card-astral-pipes" class="drawer-brand-item">
+                            <span class="brand-item-name">Astral Pipes</span>
+                            <span class="brand-item-cat">Plumbing Systems</span>
+                        </a>
+                        <a href="#brand-card-prince-pipes" class="drawer-brand-item">
+                            <span class="brand-item-name">Prince Pipes</span>
+                            <span class="brand-item-cat">Piping &amp; Drainage</span>
+                        </a>
+                        <a href="#brand-card-carysil-sinks" class="drawer-brand-item">
+                            <span class="brand-item-name">Carysil Sinks</span>
+                            <span class="brand-item-cat">Quartz Kitchen Sinks</span>
+                        </a>
+                        <a href="#brand-card-somany-adhesive" class="drawer-brand-item">
+                            <span class="brand-item-name">Somany Ezy Fix</span>
+                            <span class="brand-item-cat">Tile Adhesives</span>
+                        </a>
+                        <a href="#brand-card-magnify-adhesive" class="drawer-brand-item">
+                            <span class="brand-item-name">Magnify Grout</span>
+                            <span class="brand-item-cat">Adhesives &amp; Grouts</span>
+                        </a>
+                        <a href="#brand-card-kaff-appliances" class="drawer-brand-item">
+                            <span class="brand-item-name">Kaff Appliances</span>
+                            <span class="brand-item-cat">Chimneys &amp; Hobs</span>
+                        </a>
+                        <a href="#brand-card-livpure-appliances" class="drawer-brand-item">
+                            <span class="brand-item-name">Livpure</span>
+                            <span class="brand-item-cat">RO Water Purifiers</span>
+                        </a>
+                        <a href="#brand-card-mts-appliances" class="drawer-brand-item">
+                            <span class="brand-item-name">MTS Appliances</span>
+                            <span class="brand-item-cat">Home &amp; Kitchen</span>
+                        </a>
+                        <a href="#about-brand" class="drawer-brand-item">
+                            <span class="brand-item-name">EQUIL Signature</span>
+                            <span class="brand-item-cat">Bath &amp; Kitchen</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Section 3: Showroom Address & Immediate Contact -->
+                <div class="drawer-contact-card">
+                    <h4>📍 Visit SS Global Showroom</h4>
+                    <p>Plot No-18/27, Vipin Garden, Near Pillar No-803, Dwarka Mor, Delhi-110059<br>
+                    <strong>Hours:</strong> Mon - Sat: 10:00 AM - 8:00 PM (Sunday Closed)</p>
+                    <div class="drawer-contact-actions">
+                        <a href="tel:+919355609966" class="btn btn-primary">📞 Call +91 9355609966</a>
+                        <a href="https://wa.me/919355609966" target="_blank" rel="noopener" class="btn btn-secondary">💬 WhatsApp</a>
+                        <a href="https://maps.google.com/?q=Plot+No-18/27,+Vipin+Garden,+Near+Pillar+No-803,+Dwarka+Mor,+Delhi-110059" target="_blank" rel="noopener" class="btn btn-secondary">🗺️ Directions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Luxury Hero Section -->
     <section class="hero" id="hero" style="background-image: linear-gradient(rgba(30, 28, 26, 0.45), rgba(30, 28, 26, 0.75)), url('static/images/hero_showroom.png');">
@@ -76,7 +183,7 @@
         <div class="marquee-track-wrapper">
             <div class="marquee-track">
                 <!-- Loop 1 -->
-                                <a href="#brand-card-somany-tiles" class="marquee-item" title="SOMANY CERAMICS - Authorised Dealer">
+                <a href="#brand-card-somany-tiles" class="marquee-item" title="SOMANY CERAMICS - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/somany.svg" alt="SOMANY CERAMICS Official Logo">
                     <span class="marquee-tag">Designer Tiles</span>
@@ -96,25 +203,50 @@
                     <img src="static/images/brands/jaquar.svg" alt="JAQUAR Official Logo">
                     <span class="marquee-tag">Bathroom Fittings</span>
                 </a>
+                <a href="#brand-card-supreme-pipes" class="marquee-item" title="SUPREME PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/supreme.png" alt="SUPREME PIPES Official Logo">
+                    <span class="marquee-tag">Pipes &amp; Fittings</span>
+                </a>
+                <a href="#brand-card-astral-pipes" class="marquee-item" title="ASTRAL PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/astral.png" alt="ASTRAL PIPES Official Logo">
+                    <span class="marquee-tag">Plumbing Systems</span>
+                </a>
+                <a href="#brand-card-prince-pipes" class="marquee-item" title="PRINCE PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/prince.png" alt="PRINCE PIPES Official Logo">
+                    <span class="marquee-tag">Piping &amp; Drainage</span>
+                </a>
+                <a href="#brand-card-carysil-sinks" class="marquee-item" title="CARYSIL - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/carysil.png" alt="CARYSIL Luxury Sinks Official Logo">
+                    <span class="marquee-tag">Quartz Sinks</span>
+                </a>
                 <a href="#brand-card-somany-adhesive" class="marquee-item" title="SOMANY EZY FIX - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/somany.svg" alt="SOMANY EZY FIX Official Logo">
                     <span class="marquee-tag">Tile Adhesives</span>
                 </a>
+                <a href="#brand-card-magnify-adhesive" class="marquee-item" title="MAGNIFY TILE ADHESIVE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/magnify.svg" alt="MAGNIFY TILE ADHESIVES Official Logo">
+                    <span class="marquee-tag">Tile Adhesives</span>
+                </a>
                 <a href="#brand-card-kaff-appliances" class="marquee-item" title="KAFF APPLIANCES - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/kaff.png" alt="KAFF APPLIANCES Official Logo">
-                    <span class="marquee-tag">Home & Kitchen</span>
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
                 </a>
                 <a href="#brand-card-livpure-appliances" class="marquee-item" title="LIVPURE - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/livpure.png" alt="LIVPURE Official Logo">
-                    <span class="marquee-tag">Home & Kitchen</span>
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
                 </a>
                 <a href="#brand-card-mts-appliances" class="marquee-item" title="MTS APPLIANCES - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/mts.svg" alt="MTS APPLIANCES Official Logo">
-                    <span class="marquee-tag">Home & Kitchen</span>
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
                 </a>
                 <a href="#about-brand" class="marquee-item" title="EQUIL Signature Accessories">
                     <span class="marquee-verified-dot"></span>
@@ -123,7 +255,7 @@
                 </a>
 
                 <!-- Loop 2 for Seamless Infinite Scroll -->
-                                <a href="#brand-card-somany-tiles" class="marquee-item" title="SOMANY CERAMICS - Authorised Dealer">
+                <a href="#brand-card-somany-tiles" class="marquee-item" title="SOMANY CERAMICS - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/somany.svg" alt="SOMANY CERAMICS Official Logo">
                     <span class="marquee-tag">Designer Tiles</span>
@@ -143,25 +275,50 @@
                     <img src="static/images/brands/jaquar.svg" alt="JAQUAR Official Logo">
                     <span class="marquee-tag">Bathroom Fittings</span>
                 </a>
+                <a href="#brand-card-supreme-pipes" class="marquee-item" title="SUPREME PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/supreme.png" alt="SUPREME PIPES Official Logo">
+                    <span class="marquee-tag">Pipes &amp; Fittings</span>
+                </a>
+                <a href="#brand-card-astral-pipes" class="marquee-item" title="ASTRAL PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/astral.png" alt="ASTRAL PIPES Official Logo">
+                    <span class="marquee-tag">Plumbing Systems</span>
+                </a>
+                <a href="#brand-card-prince-pipes" class="marquee-item" title="PRINCE PIPES - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/prince.png" alt="PRINCE PIPES Official Logo">
+                    <span class="marquee-tag">Piping &amp; Drainage</span>
+                </a>
+                <a href="#brand-card-carysil-sinks" class="marquee-item" title="CARYSIL - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/carysil.png" alt="CARYSIL Luxury Sinks Official Logo">
+                    <span class="marquee-tag">Quartz Sinks</span>
+                </a>
                 <a href="#brand-card-somany-adhesive" class="marquee-item" title="SOMANY EZY FIX - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/somany.svg" alt="SOMANY EZY FIX Official Logo">
                     <span class="marquee-tag">Tile Adhesives</span>
                 </a>
+                <a href="#brand-card-magnify-adhesive" class="marquee-item" title="MAGNIFY TILE ADHESIVE - Authorised Dealer">
+                    <span class="marquee-verified-dot"></span>
+                    <img src="static/images/brands/magnify.svg" alt="MAGNIFY TILE ADHESIVES Official Logo">
+                    <span class="marquee-tag">Tile Adhesives</span>
+                </a>
                 <a href="#brand-card-kaff-appliances" class="marquee-item" title="KAFF APPLIANCES - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/kaff.png" alt="KAFF APPLIANCES Official Logo">
-                    <span class="marquee-tag">Home & Kitchen</span>
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
                 </a>
                 <a href="#brand-card-livpure-appliances" class="marquee-item" title="LIVPURE - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/livpure.png" alt="LIVPURE Official Logo">
-                    <span class="marquee-tag">Home & Kitchen</span>
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
                 </a>
                 <a href="#brand-card-mts-appliances" class="marquee-item" title="MTS APPLIANCES - Authorised Dealer">
                     <span class="marquee-verified-dot"></span>
                     <img src="static/images/brands/mts.svg" alt="MTS APPLIANCES Official Logo">
-                    <span class="marquee-tag">Home & Kitchen</span>
+                    <span class="marquee-tag">Home &amp; Kitchen</span>
                 </a>
                 <a href="#about-brand" class="marquee-item" title="EQUIL Signature Accessories">
                     <span class="marquee-verified-dot"></span>
@@ -234,342 +391,390 @@
             <!-- Category Filter Pills -->
             <div class="brand-filters reveal-on-scroll stagger-1">
                 <button class="brand-filter-btn active" data-brand-filter="all">
-                    All Authorised Brands <span class="count-badge">8</span>
+                    All Authorised Brands <span class="count-badge">13</span>
                 </button>
                 <button class="brand-filter-btn" data-brand-filter="tiles">
-                    Tiles & Surfaces <span class="count-badge">2</span>
+                    Tiles &amp; Surfaces <span class="count-badge">2</span>
                 </button>
                 <button class="brand-filter-btn" data-brand-filter="bathroom">
                     Bathroom Fittings <span class="count-badge">2</span>
                 </button>
+                <button class="brand-filter-btn" data-brand-filter="pipes">
+                    Pipes &amp; Plumbing <span class="count-badge">3</span>
+                </button>
                 <button class="brand-filter-btn" data-brand-filter="adhesives">
-                    Tile Adhesives <span class="count-badge">1</span>
+                    Tile Adhesives <span class="count-badge">2</span>
                 </button>
                 <button class="brand-filter-btn" data-brand-filter="appliances">
-                    Home & Kitchen <span class="count-badge">3</span>
+                    Kitchen, Sinks &amp; Appliances <span class="count-badge">4</span>
                 </button>
             </div>
 
-            <!-- Authorised Brands Grid -->
+            <!-- Authorised Brands Grid (Crisp & Short Overview) -->
             <div class="authorised-brands-grid">
-                                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-somany-tiles" data-category="tiles">
+                <!-- 1. Somany -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-somany-tiles" data-category="tiles">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
-                        <span class="brand-category-pill">Designer Tiles</span>
+                        <span class="brand-category-pill">Tiles &amp; Slabs</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/somany.svg" alt="SOMANY CERAMICS Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">SOMANY CERAMICS</h3>
-                        <p class="brand-card-tagline">India's Renowned Ceramic & Vitrified Surfaces</p>
-                        <p class="brand-card-desc">Official dealer for Somany's extensive collections including Glazed Vitrified Tiles (GVT/PGVT), Duragres, Slip-Shield tiles, and designer wall & floor surfaces.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> GVT & PGVT Full-Body Slabs</li>
-                            <li><span class="bullet">&#8227;</span> Slip-Shield & Duragres Tiles</li>
-                            <li><span class="bullet">&#8227;</span> Luxury Wall & Floor Textures</li>
-                            <li><span class="bullet">&#8227;</span> Direct Showroom Wholesale & Retail</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="SOMANY CERAMICS" data-service-key="brand-somany-tiles">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">Ceramic &amp; Vitrified Architectural Surfaces</p>
+                        <p class="brand-card-desc">Official showroom dealer for Glazed Vitrified Tiles (GVT/PGVT), Duragres heavy-duty slabs, and designer wall concepts.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">GVT / PGVT Slabs</span>
+                            <span class="brand-tag-chip">Duragres</span>
+                            <span class="brand-tag-chip">Slip-Shield Tiles</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="SOMANY CERAMICS" data-service-key="brand-somany-tiles">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
+
+                <!-- 2. Kajaria -->
                 <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-kajaria-tiles" data-category="tiles">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
-                        <span class="brand-category-pill">Designer Tiles</span>
+                        <span class="brand-category-pill">Tiles &amp; Slabs</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/kajaria.svg" alt="KAJARIA CERAMICS Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">KAJARIA CERAMICS</h3>
-                        <p class="brand-card-tagline">India's No. 1 Tile Company</p>
-                        <p class="brand-card-desc">Official showroom partner for Kajaria's premium floor and wall tiles, Eternity polished vitrified slabs, and ultramodern architectural surfaces.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> Eternity Polished Vitrified Slabs</li>
-                            <li><span class="bullet">&#8227;</span> High-Definition Wall Concepts</li>
-                            <li><span class="bullet">&#8227;</span> Outdoor & Heavy-Duty Pavers</li>
-                            <li><span class="bullet">&#8227;</span> Architectural Large-Format Sizes</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="KAJARIA CERAMICS" data-service-key="brand-kajaria-tiles">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">India's No. 1 Tile Manufacturer</p>
+                        <p class="brand-card-desc">Showroom distributor for Eternity polished vitrified tiles, large-format luxury slabs, and high-definition wall tiles.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Eternity Slabs</span>
+                            <span class="brand-tag-chip">Polished Vitrified</span>
+                            <span class="brand-tag-chip">Outdoor Pavers</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="KAJARIA CERAMICS" data-service-key="brand-kajaria-tiles">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
+
+                <!-- 3. Hindware -->
                 <div class="brand-card reveal-on-scroll stagger-3" id="brand-card-hindware-bath" data-category="bathroom">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
                         <span class="brand-category-pill">Bathroom Fittings</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/hindware.svg" alt="HINDWARE Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">HINDWARE</h3>
-                        <p class="brand-card-tagline">Iconic Bathware & Sanitary Solutions</p>
-                        <p class="brand-card-desc">Official authorised distributor for Hindware luxury sanitaryware, sensor faucets, designer water closets, counter basins, and brass bath fittings.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> Luxury Bathware & Sanitaryware</li>
-                            <li><span class="bullet">&#8227;</span> Water-Saving Smart Closets</li>
-                            <li><span class="bullet">&#8227;</span> Designer Brass Basin Mixers</li>
-                            <li><span class="bullet">&#8227;</span> Rain Showers & Wellness Systems</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="HINDWARE" data-service-key="brand-hindware-bath">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">Iconic Sanitaryware &amp; Bath Fixtures</p>
+                        <p class="brand-card-desc">Authorised supplier of Italian collection rimless smart closets, designer basins, sensor faucets, and vanity setups.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Italian Collection</span>
+                            <span class="brand-tag-chip">Smart WCs</span>
+                            <span class="brand-tag-chip">Brass Mixers</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="HINDWARE" data-service-key="brand-hindware-bath">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
+
+                <!-- 4. Jaquar -->
                 <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-jaquar-bath" data-category="bathroom">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
                         <span class="brand-category-pill">Bathroom Fittings</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/jaquar.svg" alt="JAQUAR Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">JAQUAR</h3>
-                        <p class="brand-card-tagline">Complete Luxury Bathroom Solutions</p>
-                        <p class="brand-card-desc">Authorised dealer showcasing Jaquar premium faucets, multi-mode thermostatic shower systems, designer bathtubs, sanitaryware, and luxury accessories.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> Artize & Jaquar Luxury Faucets</li>
-                            <li><span class="bullet">&#8227;</span> Thermostatic Rain Showers</li>
-                            <li><span class="bullet">&#8227;</span> Premium Sanitaryware & Basins</li>
-                            <li><span class="bullet">&#8227;</span> 10-Year Brand Warranty Assured</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="JAQUAR" data-service-key="brand-jaquar-bath">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">Luxury Bathware &amp; Wellness Solutions</p>
+                        <p class="brand-card-desc">Official showroom dealer for Jaquar faucets, thermostatic multi-mode rain showers, sanitaryware, and luxury accessories.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Artize &amp; Jaquar Faucets</span>
+                            <span class="brand-tag-chip">Rain Showers</span>
+                            <span class="brand-tag-chip">10-Yr Warranty</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="JAQUAR" data-service-key="brand-jaquar-bath">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
+
+                <!-- 5. Somany Ezy Fix -->
                 <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-somany-adhesive" data-category="adhesives">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
                         <span class="brand-category-pill">Tile Adhesives</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/somany.svg" alt="SOMANY EZY FIX Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">SOMANY EZY FIX</h3>
-                        <p class="brand-card-tagline">High-Bond Tile Adhesives & Epoxy Grouts</p>
-                        <p class="brand-card-desc">Certified dealer for Somany high-strength polymer tile adhesives, heavy-duty tile adhesives for vitrified slabs, waterproof grouts, and surface care chemical solutions.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> Polymer-Modified High Bond</li>
-                            <li><span class="bullet">&#8227;</span> Large Format Tile Fixing Adhesives</li>
-                            <li><span class="bullet">&#8227;</span> Stain-Free Epoxy Tile Grouts</li>
-                            <li><span class="bullet">&#8227;</span> Waterproof External & Internal Solutions</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="SOMANY EZY FIX" data-service-key="brand-somany-adhesive">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">Polymer Tile Adhesives &amp; Grouts</p>
+                        <p class="brand-card-desc">Heavy-strength polymer adhesives engineered for vitrified slab fixing, waterproof epoxy grouts, and surface care chemicals.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">High-Bond Polymer</span>
+                            <span class="brand-tag-chip">Slab Fixing</span>
+                            <span class="brand-tag-chip">Epoxy Grouts</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="SOMANY EZY FIX" data-service-key="brand-somany-adhesive">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
+
+                <!-- 6. Kaff Appliances -->
                 <div class="brand-card reveal-on-scroll stagger-3" id="brand-card-kaff-appliances" data-category="appliances">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
-                        <span class="brand-category-pill">Home & Kitchen</span>
+                        <span class="brand-category-pill">Kitchen Appliances</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/kaff.png" alt="KAFF APPLIANCES Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">KAFF APPLIANCES</h3>
-                        <p class="brand-card-tagline">Premier Built-in Kitchen Innovations</p>
-                        <p class="brand-card-desc">Authorised dealer of Kaff's luxury kitchen appliances featuring filterless gesture-controlled auto-clean chimneys, toughened glass gas hobs, built-in ovens, and dishwashers.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> Filterless Auto-Clean Chimneys</li>
-                            <li><span class="bullet">&#8227;</span> Multi-Burner Brass Hobs</li>
-                            <li><span class="bullet">&#8227;</span> Built-In Microwaves & Ovens</li>
-                            <li><span class="bullet">&#8227;</span> Heavy Suction & Quiet Tech</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="KAFF APPLIANCES" data-service-key="brand-kaff-appliances">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">Built-In Smart Kitchen Appliances</p>
+                        <p class="brand-card-desc">Premium filterless gesture auto-clean chimneys, toughened glass brass hobs, built-in microwave ovens, and dishwashers.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Auto-Clean Chimneys</span>
+                            <span class="brand-tag-chip">Brass Hobs</span>
+                            <span class="brand-tag-chip">Built-In Ovens</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="KAFF APPLIANCES" data-service-key="brand-kaff-appliances">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
+
+                <!-- 7. Livpure -->
                 <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-livpure-appliances" data-category="appliances">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
-                        <span class="brand-category-pill">Home & Kitchen</span>
+                        <span class="brand-category-pill">Kitchen Appliances</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/livpure.png" alt="LIVPURE Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">LIVPURE</h3>
-                        <p class="brand-card-tagline">Smart RO Purifiers & Home Innovations</p>
-                        <p class="brand-card-desc">Authorised dealer supplying Livpure state-of-the-art RO + UV + Mineralizer water purifiers, water softeners, smart kitchen chimneys, and air purification systems.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> 7-Stage RO + UV + Mineralizer</li>
-                            <li><span class="bullet">&#8227;</span> Smart IoT Water Purifiers</li>
-                            <li><span class="bullet">&#8227;</span> Domestic & Villa Water Softeners</li>
-                            <li><span class="bullet">&#8227;</span> Direct Brand Installation & Warranty</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="LIVPURE" data-service-key="brand-livpure-appliances">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">Advanced Smart RO Water Purifiers</p>
+                        <p class="brand-card-desc">7-stage RO + UV + Mineralizer copper-boosted purifiers, smart domestic water softeners, and energy-efficient kitchen appliances.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Copper RO Systems</span>
+                            <span class="brand-tag-chip">Water Softeners</span>
+                            <span class="brand-tag-chip">IoT Connected</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="LIVPURE" data-service-key="brand-livpure-appliances">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
+
+                <!-- 8. MTS Appliances -->
                 <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-mts-appliances" data-category="appliances">
                     <div class="brand-card-top">
                         <div class="dealer-verified-badge">
-                            <svg viewBox="0 0 24 24">
-                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-                            </svg>
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                             <span>Authorised Dealer</span>
                         </div>
-                        <span class="brand-category-pill">Home & Kitchen</span>
+                        <span class="brand-category-pill">Kitchen Appliances</span>
                     </div>
-
                     <div class="brand-card-logo-wrap">
                         <img src="static/images/brands/mts.svg" alt="MTS APPLIANCES Official Logo">
                     </div>
-
                     <div class="brand-card-body">
                         <h3 class="brand-card-title">MTS APPLIANCES</h3>
-                        <p class="brand-card-tagline">Performance Home & Kitchen Appliances</p>
-                        <p class="brand-card-desc">Authorised showroom dealer for MTS appliances including high-efficiency storage & instant water geysers, modern kitchen solutions, and durable home utilities.</p>
-
-                        <ul class="brand-offerings-list">
-                            <li><span class="bullet">&#8227;</span> High-Efficiency Water Geysers</li>
-                            <li><span class="bullet">&#8227;</span> Durable Kitchen Essentials</li>
-                            <li><span class="bullet">&#8227;</span> Energy Star Rated Performance</li>
-                            <li><span class="bullet">&#8227;</span> Comprehensive Manufacturer Support</li>
-                        </ul>
-                    </div>
-
-                    <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="MTS APPLIANCES" data-service-key="brand-mts-appliances">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <p class="brand-card-tagline">Durable Home &amp; Kitchen Utilities</p>
+                        <p class="brand-card-desc">Energy-rated storage and instant water geysers, heavy-duty suction kitchen chimneys, and toughened glass cooktops.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Water Geysers</span>
+                            <span class="brand-tag-chip">Glass Cooktops</span>
+                            <span class="brand-tag-chip">Energy Star Rated</span>
                         </div>
                     </div>
-                </div>
-                        </ul>
-                    </div>
-
                     <div class="brand-card-footer">
-                        <button type="button" class="btn-brand-inquire" data-brand-name="{{ b.name }}" data-service-key="brand-{{ b.id }}">
-                            Inquire for Catalog &rarr;
-                        </button>
-                        <div class="brand-warranty-badge">
-                            <span class="pulse-beacon"></span>
-                            <span>Verified Stockist</span>
+                        <button type="button" class="btn-brand-inquire" data-brand-name="MTS APPLIANCES" data-service-key="brand-mts-appliances">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 9. Supreme Pipes -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-supreme-pipes" data-category="pipes">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Pipes &amp; Plumbing</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/supreme.png" alt="SUPREME PIPES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">SUPREME PIPES</h3>
+                        <p class="brand-card-tagline">Total Piping &amp; Plumbing Solutions</p>
+                        <p class="brand-card-desc">Authorised stockist for Supreme Lifeline CPVC, Aqua Gold UPVC high-pressure pipes, and SWR underground drainage fittings.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Lifeline CPVC</span>
+                            <span class="brand-tag-chip">Aqua Gold UPVC</span>
+                            <span class="brand-tag-chip">SWR Drainage</span>
                         </div>
                     </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="SUPREME PIPES" data-service-key="brand-supreme-pipes">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
                 </div>
-                {% endfor %}
+
+                <!-- 10. Astral Pipes -->
+                <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-astral-pipes" data-category="pipes">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Pipes &amp; Plumbing</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/astral.png" alt="ASTRAL PIPES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">ASTRAL PIPES</h3>
+                        <p class="brand-card-tagline">Engineered Zero-Leak Plumbing Systems</p>
+                        <p class="brand-card-desc">Official dealer supplying Astral FlowGuard CPVC, Aquarius lead-free UPVC, and Silencio low-noise acoustic drainage pipes.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">FlowGuard CPVC</span>
+                            <span class="brand-tag-chip">Aquarius UPVC</span>
+                            <span class="brand-tag-chip">Silencio Drainage</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="ASTRAL PIPES" data-service-key="brand-astral-pipes">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 11. Prince Pipes -->
+                <div class="brand-card reveal-on-scroll stagger-3" id="brand-card-prince-pipes" data-category="pipes">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Pipes &amp; Plumbing</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/prince.png" alt="PRINCE PIPES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">PRINCE PIPES</h3>
+                        <p class="brand-card-tagline">Decades of Trust in Piping &amp; Drainage</p>
+                        <p class="brand-card-desc">Authorised channel partner for Prince Flowfit CPVC, Easyfit UPVC systems, and Ultrafit leakproof SWR drainage with heavy seals.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Flowfit CPVC</span>
+                            <span class="brand-tag-chip">Easyfit UPVC</span>
+                            <span class="brand-tag-chip">Ultrafit SWR</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="PRINCE PIPES" data-service-key="brand-prince-pipes">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 12. Carysil Sinks -->
+                <div class="brand-card reveal-on-scroll stagger-1" id="brand-card-carysil-sinks" data-category="appliances">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Kitchen Sinks</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/carysil.png" alt="CARYSIL Luxury Sinks Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">CARYSIL</h3>
+                        <p class="brand-card-tagline">German Engineered Quartz Kitchen Sinks</p>
+                        <p class="brand-card-desc">Official showroom dealer for Carysil 80% natural quartz composite sinks, workstation sinks, designer faucets, and appliances.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">80% Quartz Tech</span>
+                            <span class="brand-tag-chip">Scratch Resistant</span>
+                            <span class="brand-tag-chip">Workstation Sinks</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="CARYSIL" data-service-key="brand-carysil-sinks">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
+
+                <!-- 13. Magnify -->
+                <div class="brand-card reveal-on-scroll stagger-2" id="brand-card-magnify-adhesive" data-category="adhesives">
+                    <div class="brand-card-top">
+                        <div class="dealer-verified-badge">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                            <span>Authorised Dealer</span>
+                        </div>
+                        <span class="brand-category-pill">Tile Adhesives</span>
+                    </div>
+                    <div class="brand-card-logo-wrap">
+                        <img src="static/images/brands/magnify.svg" alt="MAGNIFY TILE ADHESIVES Official Logo">
+                    </div>
+                    <div class="brand-card-body">
+                        <h3 class="brand-card-title">MAGNIFY ADHESIVES</h3>
+                        <p class="brand-card-tagline">Polymer Tile Adhesives &amp; Epoxy Grouts</p>
+                        <p class="brand-card-desc">Authorised dealer for Magnify heavy-bond polymer adhesives, large vitrified slab fixers, and waterproof epoxy chemical grouts.</p>
+                        <div class="brand-quick-tags">
+                            <span class="brand-tag-chip">Polymer Bond</span>
+                            <span class="brand-tag-chip">Slab Fixing Mortar</span>
+                            <span class="brand-tag-chip">Epoxy Grouts</span>
+                        </div>
+                    </div>
+                    <div class="brand-card-footer">
+                        <button type="button" class="btn-brand-inquire" data-brand-name="MAGNIFY ADHESIVES" data-service-key="brand-magnify-adhesive">Inquire for Catalog &rarr;</button>
+                        <div class="brand-warranty-badge"><span class="pulse-beacon"></span><span>Verified Stockist</span></div>
+                    </div>
+                </div>
             </div>
 
             <!-- Dealership Trust Guarantee Bar -->
@@ -814,20 +1019,33 @@
                         <label for="service">Department / Brand of Interest</label>
                         <select id="service" name="service" required>
                             <option value="" disabled selected>Select Department or Authorised Brand</option>
-                            <optgroup label="Authorised Brands">
-                                <option value="brand-somany-tiles">Somany Ceramics - Vitrified & Floor Tiles</option>
-                                <option value="brand-kajaria-tiles">Kajaria Ceramics - Premium Wall & Floor Tiles</option>
-                                <option value="brand-hindware-bath">Hindware - Bathware & Sanitary Solutions</option>
-                                <option value="brand-jaquar-bath">Jaquar - Luxury Bathroom Fittings & Showers</option>
-                                <option value="brand-somany-adhesive">Somany Ezy Fix - Tile Adhesives & Grouts</option>
-                                <option value="brand-kaff-appliances">Kaff - Built-in Kitchen Chimneys & Hobs</option>
-                                <option value="brand-livpure-appliances">Livpure - Smart RO Water Purifiers & Appliances</option>
-                                <option value="brand-mts-appliances">MTS - Home Appliances & Water Geysers</option>
+                            <optgroup label="Pipes &amp; Plumbing Systems">
+                                <option value="brand-supreme-pipes">Supreme Pipes - CPVC, UPVC &amp; SWR Drainage</option>
+                                <option value="brand-astral-pipes">Astral Pipes - FlowGuard Plus &amp; High-Pressure Plumbing</option>
+                                <option value="brand-prince-pipes">Prince Pipes - Acoustic Drainage &amp; Building Plumbing</option>
+                            </optgroup>
+                            <optgroup label="Kitchen Sinks &amp; Appliances">
+                                <option value="brand-carysil-sinks">Carysil - German Quartz &amp; Granite Kitchen Sinks</option>
+                                <option value="brand-kaff-appliances">Kaff - Built-in Kitchen Chimneys &amp; Hobs</option>
+                                <option value="brand-livpure-appliances">Livpure - Smart RO Water Purifiers &amp; Appliances</option>
+                                <option value="brand-mts-appliances">MTS - Home Appliances &amp; Water Geysers</option>
+                            </optgroup>
+                            <optgroup label="Tile Adhesives &amp; Chemical Grouts">
+                                <option value="brand-somany-adhesive">Somany Ezy Fix - Tile Adhesives &amp; Grouts</option>
+                                <option value="brand-magnify-adhesive">Magnify - High-Bond Polymer Adhesives &amp; Epoxy Grouts</option>
+                            </optgroup>
+                            <optgroup label="Designer Tiles &amp; Surfaces">
+                                <option value="brand-somany-tiles">Somany Ceramics - Vitrified &amp; Floor Tiles</option>
+                                <option value="brand-kajaria-tiles">Kajaria Ceramics - Premium Wall &amp; Floor Tiles</option>
+                            </optgroup>
+                            <optgroup label="Luxury Bathroom Solutions">
+                                <option value="brand-hindware-bath">Hindware - Bathware &amp; Sanitary Solutions</option>
+                                <option value="brand-jaquar-bath">Jaquar - Luxury Bathroom Fittings &amp; Showers</option>
                             </optgroup>
                             <optgroup label="Showroom Departments">
-                                <option value="tiles-bath">Tiles & Bathroom Fittings (General)</option>
-                                <option value="bath-fittings">Equil Bath Fittings & Showers</option>
-                                <option value="kitchen-chimneys">Equil Kitchen Chimneys & Hobs</option>
+                                <option value="tiles-bath">Tiles &amp; Bathroom Fittings (General)</option>
+                                <option value="bath-fittings">Equil Bath Fittings &amp; Showers</option>
+                                <option value="kitchen-chimneys">Equil Kitchen Chimneys &amp; Hobs</option>
                                 <option value="general-inquiry">Complete Villa / Project Consultation</option>
                             </optgroup>
                         </select>
@@ -847,8 +1065,12 @@
                         <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
                     </svg>
                 </div>
-                <h3 class="success-title">Inquiry Sent Successfully!</h3>
-                <p class="success-message">Thank you for reaching out! Your query has been delivered directly to <strong>sales.ssgloball@gmail.com</strong>. Our design consultant will review your specifications and contact you shortly.</p>
+                <h3 class="success-title" id="success-title-text">Inquiry Sent Successfully!</h3>
+                <p class="success-message" id="success-feedback-text">Thank you for reaching out! Your query has been submitted to <strong>sales.ssgloball@gmail.com</strong>. Our design consultant will review your specifications and contact you shortly.</p>
+                <div id="activation-notice" style="display:none; max-width: 520px; background: rgba(197, 168, 128, 0.12); border: 1px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 4px; margin: 1.25rem auto 0 auto; text-align: left; font-size: 0.88rem; color: var(--text-primary); line-height: 1.5;">
+                    <strong>📬 One-Time Setup for sales.ssgloball@gmail.com:</strong><br>
+                    FormSubmit has sent an <em>"Activate Form"</em> email to <strong>sales.ssgloball@gmail.com</strong>. Please open it (check Spam or Updates tab if needed) and click the activation link once to enable direct inbox forwarding.
+                </div>
                 <div style="margin-top: 1.8rem; display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
                     <a id="whatsapp-direct-inquiry" href="https://wa.me/919355609966" target="_blank" rel="noopener" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.6rem;">
                         <span>💬</span> Chat with Consultant on WhatsApp Now
@@ -857,6 +1079,72 @@
                         <span>✉️</span> Direct Email to sales.ssgloball@gmail.com
                     </a>
                     <button type="button" id="reset-inquiry-btn" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.5rem 1.2rem; opacity: 0.85;">Submit Another Inquiry</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dedicated Showroom Address, Location & Direct Contact Section (Bottom Hub) -->
+    <section class="section showroom-contact-section" id="showroom-contact">
+        <div class="container">
+            <div class="section-header-centered reveal-on-scroll">
+                <span class="section-tag">Flagship Showroom Destination</span>
+                <h2 class="section-title">Visit Our Showroom &amp; Direct Contact</h2>
+                <p class="section-desc">Experience our comprehensive display of designer tiles, luxury sanitaryware, piping networks, and kitchen fixtures firsthand in Dwarka Mor, New Delhi.</p>
+            </div>
+
+            <div class="showroom-contact-grid reveal-on-scroll stagger-1">
+                <!-- Card 1: Address & Directions -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">📍</div>
+                    <h3 class="hub-card-title">Showroom Address</h3>
+                    <p class="hub-card-text">
+                        <strong>SS GLOBAL</strong><br>
+                        Plot No-18/27, Vipin Garden,<br>
+                        Near Metro Pillar No-803, Dwarka Mor,<br>
+                        New Delhi - 110059, India
+                    </p>
+                    <a href="https://maps.google.com/?q=Plot+No-18/27,+Vipin+Garden,+Near+Pillar+No-803,+Dwarka+Mor,+Delhi-110059" target="_blank" rel="noopener" class="hub-card-action">
+                        <span>Get Directions</span> &rarr;
+                    </a>
+                </div>
+
+                <!-- Card 2: Direct Phone -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">📞</div>
+                    <h3 class="hub-card-title">Direct Calling</h3>
+                    <p class="hub-card-text">
+                        Speak directly with our architectural showroom consultants for contractor rates, stock availability, and inquiries.
+                    </p>
+                    <a href="tel:+919355609966" class="hub-card-action">
+                        <span>Call: +91 9355609966</span>
+                    </a>
+                </div>
+
+                <!-- Card 3: WhatsApp Desk -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">💬</div>
+                    <h3 class="hub-card-title">WhatsApp Desk</h3>
+                    <p class="hub-card-text">
+                        Instant catalogs, PDF brochures, high-res tile photos, and official quotations sent directly to your phone.
+                    </p>
+                    <a href="https://wa.me/919355609966?text=Hello%20SS%20Global,%20I%20would%20like%20to%20inquire%20about%20your%20showroom%20brands%20and%20catalogs" target="_blank" rel="noopener" class="hub-card-action">
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                </div>
+
+                <!-- Card 4: Timings & Email -->
+                <div class="contact-hub-card">
+                    <div class="hub-card-icon">⏰</div>
+                    <h3 class="hub-card-title">Hours &amp; Inquiries</h3>
+                    <p class="hub-card-text">
+                        <strong>Mon - Sat:</strong> 10:00 AM – 8:00 PM<br>
+                        <strong>Sunday:</strong> Closed<br>
+                        <strong>Email:</strong> sales.ssgloball@gmail.com
+                    </p>
+                    <a href="mailto:sales.ssgloball@gmail.com" class="hub-card-action">
+                        <span>Email Showroom</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -871,7 +1159,7 @@
                     <div class="footer-logo-divider"></div>
                     <img src="static/images/logo_equil.png" alt="Equil Logo" class="footer-logo-equil">
                 </div>
-                <p class="brand-desc"><strong>SS GLOBAL</strong> is the premier showroom in Dwarka Mor, New Delhi, proudly presenting <strong>EQUIL</strong> and serving as an <strong>Official Authorised Dealer</strong> for Somany, Kajaria, Hindware, Jaquar, Kaff, Livpure, and MTS.</p>
+                <p class="brand-desc"><strong>SS GLOBAL</strong> is the premier showroom in Dwarka Mor, New Delhi, proudly presenting <strong>EQUIL</strong> and serving as an <strong>Official Authorised Dealer</strong> for Somany, Kajaria, Hindware, Jaquar, Supreme Pipes, Astral Pipes, Prince Pipes, Carysil Sinks, Somany Ezy Fix, Magnify, Kaff, Livpure, and MTS.</p>
                 <div class="footer-contacts">
                     <p><strong>Address:</strong> Plot No-18/27, Vipin Garden, Near Pillar No-803, Dwarka Mor, Dwarka More, Delhi-110059</p>
                     <p><strong>Phone:</strong> <a href="tel:+919355609966">+91 9355609966</a></p>
@@ -885,10 +1173,15 @@
                     <li><a href="#brand-card-somany-tiles">Somany Ceramics</a></li>
                     <li><a href="#brand-card-kajaria-tiles">Kajaria Ceramics</a></li>
                     <li><a href="#brand-card-hindware-bath">Hindware Bathware</a></li>
-                    <li><a href="#brand-card-jaquar-bath">Jaquar Bathroom Solutions</a></li>
+                    <li><a href="#brand-card-jaquar-bath">Jaquar Bath Solutions</a></li>
+                    <li><a href="#brand-card-supreme-pipes">Supreme Pipes</a></li>
+                    <li><a href="#brand-card-astral-pipes">Astral Pipes</a></li>
+                    <li><a href="#brand-card-prince-pipes">Prince Pipes</a></li>
+                    <li><a href="#brand-card-carysil-sinks">Carysil Quartz Sinks</a></li>
                     <li><a href="#brand-card-somany-adhesive">Somany Tile Adhesives</a></li>
+                    <li><a href="#brand-card-magnify-adhesive">Magnify Adhesives</a></li>
                     <li><a href="#brand-card-kaff-appliances">Kaff Kitchen Appliances</a></li>
-                    <li><a href="#brand-card-livpure-appliances">Livpure RO & Appliances</a></li>
+                    <li><a href="#brand-card-livpure-appliances">Livpure RO &amp; Appliances</a></li>
                     <li><a href="#brand-card-mts-appliances">MTS Home Appliances</a></li>
                 </ul>
             </div>

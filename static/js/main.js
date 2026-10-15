@@ -1,5 +1,55 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // --- ALL CONTENT MENU DRAWER LOGIC ---
+    const menuToggleBtn = document.getElementById('menu-toggle-btn');
+    const closeMenuBtn = document.getElementById('close-menu-btn');
+    const contentDrawerOverlay = document.getElementById('content-menu-drawer');
+    const drawerLinks = document.querySelectorAll('.content-drawer a');
+
+    function openContentMenu() {
+        if (contentDrawerOverlay) {
+            contentDrawerOverlay.classList.add('active');
+            contentDrawerOverlay.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    function closeContentMenu() {
+        if (contentDrawerOverlay) {
+            contentDrawerOverlay.classList.remove('active');
+            contentDrawerOverlay.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = '';
+        }
+    }
+
+    if (menuToggleBtn) {
+        menuToggleBtn.addEventListener('click', openContentMenu);
+    }
+
+    if (closeMenuBtn) {
+        closeMenuBtn.addEventListener('click', closeContentMenu);
+    }
+
+    if (contentDrawerOverlay) {
+        contentDrawerOverlay.addEventListener('click', (e) => {
+            if (e.target === contentDrawerOverlay) {
+                closeContentMenu();
+            }
+        });
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && contentDrawerOverlay && contentDrawerOverlay.classList.contains('active')) {
+            closeContentMenu();
+        }
+    });
+
+    drawerLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            closeContentMenu();
+        });
+    });
+
     // --- ACCORDION LOGIC ---
     const accordionToggles = document.querySelectorAll('.accordion-toggle');
     
@@ -190,6 +240,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // Send query directly to sales.ssgloball@gmail.com via 100% frontend FormSubmit AJAX API
+            const activationNotice = document.getElementById('activation-notice');
+            const successTitle = document.getElementById('success-title-text');
+            const successFeedback = document.getElementById('success-feedback-text');
+
             try {
                 const payload = {
                     "Customer Name": name,
@@ -203,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "_captcha": "false"
                 };
 
-                await fetch('https://formsubmit.co/ajax/sales.ssgloball@gmail.com', {
+                const response = await fetch('https://formsubmit.co/ajax/sales.ssgloball@gmail.com', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -211,6 +265,22 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     body: JSON.stringify(payload)
                 });
+
+                const resData = await response.json();
+
+                if (resData && (resData.success === 'true' || resData.success === true)) {
+                    if (activationNotice) activationNotice.style.display = 'none';
+                    if (successTitle) successTitle.textContent = 'Inquiry Sent Successfully!';
+                    if (successFeedback) {
+                        successFeedback.innerHTML = 'Thank you! Your query has been delivered directly to <strong>sales.ssgloball@gmail.com</strong>. Our consultant will contact you shortly.';
+                    }
+                } else if (resData && resData.message && resData.message.toLowerCase().includes('activation')) {
+                    if (activationNotice) activationNotice.style.display = 'block';
+                    if (successTitle) successTitle.textContent = 'One-Time Setup Required';
+                    if (successFeedback) {
+                        successFeedback.innerHTML = 'Inquiry captured! FormSubmit has sent a 1-click confirmation to <strong>sales.ssgloball@gmail.com</strong>. Open your email and click "Activate Form" once to start receiving inquiries.';
+                    }
+                }
             } catch (error) {
                 // If offline or local file CORS, continue gracefully
                 console.warn('Form submission notice:', error);
@@ -228,6 +298,8 @@ document.addEventListener('DOMContentLoaded', () => {
             inquiryForm.reset();
             submitBtn.textContent = 'Send Inquiry Request';
             submitBtn.disabled = false;
+            const activationNotice = document.getElementById('activation-notice');
+            if (activationNotice) activationNotice.style.display = 'none';
             formSuccess.classList.remove('visible');
             inquiryForm.classList.remove('hidden');
             inquiryForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
